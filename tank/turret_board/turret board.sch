@@ -1,0 +1,477 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:turret board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CP C1
+U 1 1 59C1A5FB
+P 1850 2900
+F 0 "C1" H 1875 3000 50  0000 L CNN
+F 1 "CP" H 1875 2800 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1888 2750 50  0001 C CNN
+F 3 "" H 1850 2900 50  0001 C CNN
+	1    1850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 59C1A729
+P 2450 1800
+F 0 "R2" V 2530 1800 50  0000 C CNN
+F 1 "R" V 2450 1800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2380 1800 50  0001 C CNN
+F 3 "" H 2450 1800 50  0001 C CNN
+	1    2450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 59C1A9AC
+P 2100 2000
+F 0 "R1" V 2180 2000 50  0000 C CNN
+F 1 "R" V 2100 2000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2030 2000 50  0001 C CNN
+F 3 "" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pixart_ir U2
+U 1 1 59D5E048
+P 4750 1750
+F 0 "U2" H 4400 1900 60  0000 C CNN
+F 1 "pixart_ir" H 4700 1850 60  0000 C CNN
+F 2 "Tank:pixart_ir" H 4700 1850 60  0001 C CNN
+F 3 "" H 4700 1850 60  0001 C CNN
+	1    4750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317T U1
+U 1 1 59D5EE5B
+P 3500 3050
+F 0 "U1" H 3300 3250 50  0000 C CNN
+F 1 "LM317T" H 3500 3250 50  0000 L CNN
+F 2 "Tank:LM317T" H 3500 3150 50  0001 C CIN
+F 3 "" H 3500 3050 50  0000 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR01
+U 1 1 59D5EFD9
+P 4300 3000
+F 0 "#PWR01" H 4300 2850 50  0001 C CNN
+F 1 "+3.3V" H 4300 3140 50  0000 C CNN
+F 2 "" H 4300 3000 50  0000 C CNN
+F 3 "" H 4300 3000 50  0000 C CNN
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 59D5F0DD
+P 3500 3450
+F 0 "R3" V 3580 3450 50  0000 C CNN
+F 1 "R" V 3500 3450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3430 3450 50  0001 C CNN
+F 3 "" H 3500 3450 50  0001 C CNN
+	1    3500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 59D5F3B9
+P 4000 3150
+F 0 "R4" V 4080 3150 50  0000 C CNN
+F 1 "R" V 4000 3150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3930 3150 50  0001 C CNN
+F 3 "" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 59D5F43E
+P 3000 3200
+F 0 "C2" H 3025 3300 50  0000 L CNN
+F 1 "C" H 3025 3100 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3038 3050 50  0001 C CNN
+F 3 "" H 3000 3200 50  0000 C CNN
+	1    3000 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C3
+U 1 1 59D5F4AB
+P 4250 3150
+F 0 "C3" H 4275 3250 50  0000 L CNN
+F 1 "CP" H 4275 3050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 4288 3000 50  0001 C CNN
+F 3 "" H 4250 3150 50  0000 C CNN
+	1    4250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 59D6171D
+P 4000 1850
+F 0 "C4" H 4025 1950 50  0000 L CNN
+F 1 "C" H 4025 1750 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 4038 1700 50  0001 C CNN
+F 3 "" H 4000 1850 50  0000 C CNN
+	1    4000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 59D617A4
+P 4000 1500
+F 0 "R5" V 4080 1500 50  0000 C CNN
+F 1 "R" V 4000 1500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3930 1500 50  0001 C CNN
+F 3 "" H 4000 1500 50  0000 C CNN
+	1    4000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR02
+U 1 1 59D62A20
+P 4000 1200
+F 0 "#PWR02" H 4000 1050 50  0001 C CNN
+F 1 "+3.3V" H 4000 1340 50  0000 C CNN
+F 2 "" H 4000 1200 50  0000 C CNN
+F 3 "" H 4000 1200 50  0000 C CNN
+	1    4000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2850 1600 2750
+Wire Wire Line
+	1600 2750 2650 2750
+Wire Wire Line
+	1600 2950 1600 3050
+Connection ~ 1850 2750
+Wire Wire Line
+	2100 1850 2100 1350
+Connection ~ 1850 3050
+Wire Wire Line
+	2650 2750 2650 1050
+Wire Wire Line
+	1850 2050 2000 2050
+Wire Wire Line
+	2000 2050 2000 2250
+Wire Wire Line
+	2000 2250 3700 2250
+Wire Wire Line
+	3700 2250 3700 1250
+Wire Wire Line
+	3700 1250 3200 1250
+Wire Wire Line
+	1850 3500 3000 3500
+Wire Wire Line
+	1850 3050 1850 3500
+Wire Wire Line
+	2250 1250 2250 3500
+Connection ~ 1850 3100
+Wire Wire Line
+	2100 2150 2100 2300
+Wire Wire Line
+	2100 2300 2000 2300
+Wire Wire Line
+	2000 2300 2000 2750
+Wire Wire Line
+	1600 3050 3100 3050
+Wire Wire Line
+	1850 2250 1900 2250
+Wire Wire Line
+	1900 2250 1900 2200
+Wire Wire Line
+	1900 2200 3900 2200
+Wire Wire Line
+	3900 2200 3900 1000
+Wire Wire Line
+	3900 1000 5400 1000
+Wire Wire Line
+	3100 3050 3100 3000
+Wire Wire Line
+	3900 3000 4300 3000
+Wire Wire Line
+	1850 3100 2750 3100
+Wire Wire Line
+	2750 3100 2750 2550
+Wire Wire Line
+	2750 2550 3800 2550
+Wire Wire Line
+	3800 2550 3800 1150
+Wire Wire Line
+	3800 1150 3300 1150
+Wire Wire Line
+	3500 3300 4000 3300
+Wire Wire Line
+	3000 3500 3000 3350
+Connection ~ 2250 3500
+Wire Wire Line
+	3000 3350 3250 3350
+Wire Wire Line
+	3250 3350 3250 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	4250 3600 4250 3300
+Connection ~ 4250 3600
+Connection ~ 2000 2750
+Connection ~ 4000 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	1850 1950 1950 1950
+Wire Wire Line
+	1950 1950 1950 1700
+Wire Wire Line
+	1950 1700 2300 1700
+Wire Wire Line
+	2300 1700 2300 1950
+Connection ~ 3000 3050
+Wire Wire Line
+	5100 1450 5750 1450
+Wire Wire Line
+	4000 1650 4300 1650
+Wire Wire Line
+	4300 1650 4300 1450
+Wire Wire Line
+	4000 1700 4000 1650
+Wire Wire Line
+	4000 1350 4000 1200
+Wire Wire Line
+	4000 2000 4000 2250
+Wire Wire Line
+	5400 1000 5400 1350
+Wire Wire Line
+	5100 1350 5750 1350
+Wire Wire Line
+	5100 1150 5250 1150
+$Comp
+L +3.3V #PWR03
+U 1 1 59D62E03
+P 5250 1150
+F 0 "#PWR03" H 5250 1000 50  0001 C CNN
+F 1 "+3.3V" H 5250 1290 50  0000 C CNN
+F 2 "" H 5250 1150 50  0000 C CNN
+F 3 "" H 5250 1150 50  0000 C CNN
+	1    5250 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4300 1250
+Wire Wire Line
+	4300 1150 4300 1050
+Wire Wire Line
+	4300 1050 5200 1050
+Wire Wire Line
+	5200 1050 5200 3600
+Connection ~ 5200 1250
+Wire Wire Line
+	1450 2850 1600 2850
+Wire Wire Line
+	1450 2950 1600 2950
+Wire Wire Line
+	2300 1950 2450 1950
+Wire Wire Line
+	2450 1000 2450 1650
+$Comp
+L CONN_01X02 P1
+U 1 1 59D64728
+P 1250 2900
+F 0 "P1" H 1250 3050 50  0000 C CNN
+F 1 "CONN_01X02" V 1350 2900 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1250 2900 50  0001 C CNN
+F 3 "" H 1250 2900 50  0000 C CNN
+	1    1250 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 59D647EF
+P 1650 2100
+F 0 "P3" H 1650 2350 50  0000 C CNN
+F 1 "CONN_01X04" V 1750 2100 50  0000 C CNN
+F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 1650 2100 50  0001 C CNN
+F 3 "" H 1650 2100 50  0000 C CNN
+	1    1650 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 59D648C7
+P 1650 1300
+F 0 "P2" H 1650 1450 50  0000 C CNN
+F 1 "CONN_01X02" V 1750 1300 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1650 1300 50  0001 C CNN
+F 3 "" H 1650 1300 50  0000 C CNN
+	1    1650 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P5
+U 1 1 59D6497D
+P 3200 800
+F 0 "P5" H 3200 1000 50  0000 C CNN
+F 1 "CONN_01X03" V 3300 800 50  0000 C CNN
+F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 3200 800 50  0001 C CNN
+F 3 "" H 3200 800 50  0000 C CNN
+	1    3200 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 59D64A36
+P 2500 800
+F 0 "P4" H 2500 950 50  0000 C CNN
+F 1 "CONN_01X02" V 2600 800 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 2500 800 50  0001 C CNN
+F 3 "" H 2500 800 50  0000 C CNN
+	1    2500 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2100 1350 1850 1350
+Wire Wire Line
+	2250 1250 1850 1250
+Wire Wire Line
+	2250 2100 2600 2100
+Wire Wire Line
+	2600 2100 2600 1000
+Wire Wire Line
+	2600 1000 2550 1000
+Connection ~ 2250 2100
+Wire Wire Line
+	2650 1050 3100 1050
+Wire Wire Line
+	3100 1050 3100 1000
+Wire Wire Line
+	3200 1250 3200 1000
+Wire Wire Line
+	3300 1150 3300 1000
+Wire Wire Line
+	1850 2150 4200 2150
+Wire Wire Line
+	4200 2150 4200 1350
+Wire Wire Line
+	4150 1350 4300 1350
+Wire Wire Line
+	5200 3600 3250 3600
+Wire Wire Line
+	5200 1250 5100 1250
+Wire Wire Line
+	4000 2250 5550 2250
+Connection ~ 5200 2250
+$Comp
+L R R7
+U 1 1 59D66D74
+P 5750 950
+F 0 "R7" V 5830 950 50  0000 C CNN
+F 1 "R" V 5750 950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5680 950 50  0001 C CNN
+F 3 "" H 5750 950 50  0000 C CNN
+	1    5750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 59D66E03
+P 4150 900
+F 0 "R6" V 4230 900 50  0000 C CNN
+F 1 "R" V 4150 900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4080 900 50  0001 C CNN
+F 3 "" H 4150 900 50  0000 C CNN
+	1    4150 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 800  5750 700 
+Wire Wire Line
+	4150 750  5750 750 
+Connection ~ 5750 750 
+Wire Wire Line
+	5750 1350 5750 1100
+Connection ~ 5400 1350
+Wire Wire Line
+	4150 1050 4150 1350
+Connection ~ 4200 1350
+$Comp
+L +3.3V #PWR04
+U 1 1 59D67043
+P 5750 700
+F 0 "#PWR04" H 5750 550 50  0001 C CNN
+F 1 "+3.3V" H 5750 840 50  0000 C CNN
+F 2 "" H 5750 700 50  0000 C CNN
+F 3 "" H 5750 700 50  0000 C CNN
+	1    5750 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal_4pin Y1
+U 1 1 59D70B97
+P 5400 1900
+F 0 "Y1" H 5525 2100 50  0000 L CNN
+F 1 "Crystal_4pin" H 5350 1700 50  0000 L CNN
+F 2 "Tank:ECS-100AX" H 5400 1900 50  0001 C CNN
+F 3 "" H 5400 1900 50  0001 C CNN
+	1    5400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2400 4950 2400
+Wire Wire Line
+	4950 2400 4950 1800
+Wire Wire Line
+	4950 1800 5250 1800
+Connection ~ 2650 2400
+NoConn ~ 5250 2000
+Wire Wire Line
+	5550 1800 5750 1800
+Wire Wire Line
+	5750 1800 5750 1450
+Wire Wire Line
+	5550 2250 5550 2000
+$EndSCHEMATC

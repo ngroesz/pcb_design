@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Crystal_4pin
+D ECS-100AX
+K 4 pin crystal
+$ENDCMP
+#
+$CMP Crystal_GND23
+D ECS-100AX
+K 4 pin crystal
+$ENDCMP
+#
+$CMP SN754410
+D sn754410 quadruple half-h driver
+K half-bridge motor driver
+$ENDCMP
+#
+$CMP pixart_ir
+D ir camera
+K pixart ir camera
+$ENDCMP
+#
+#End Doc Library
