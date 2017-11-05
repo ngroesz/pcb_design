@@ -1,5 +1,0 @@
-To do for main board:
-- no sensor resistor should be inline, they should be pull-ups or pull-downs or just be eliminated
-- adjust crystal footprint
-- IR TX needs to be on pin 3
-- silkscreen should have component names
