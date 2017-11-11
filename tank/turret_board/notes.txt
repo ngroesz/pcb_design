@@ -2,3 +2,6 @@ Todo for version 0.4
 - BNJ footprint can be smaller
 - 6-pin footprint is wrong
 - 6-pin footprint is too close to Tx1
+- no vcc to crystal
+- cap in reset line can be removed
+- switch RX to outside of JST
