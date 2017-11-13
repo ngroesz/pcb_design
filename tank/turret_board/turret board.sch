@@ -320,8 +320,6 @@ Text GLabel 3250 2050 0    60   Input ~ 12
 3.3V
 Text GLabel 3200 1200 2    60   Input ~ 12
 RESET
-Text GLabel 2900 1550 3    60   Input ~ 12
-GND
 Text GLabel 2700 3050 2    60   Input ~ 12
 3.3V
 Text GLabel 4150 2850 3    60   Input ~ 12
@@ -393,8 +391,6 @@ F 3 "" H 1050 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2900 1200 3200 1200
-Wire Wire Line
-	2900 1200 2900 1550
 Wire Wire Line
 	2900 900  2900 750 
 Wire Wire Line
@@ -513,4 +509,11 @@ Text GLabel 1850 1950 2    60   Input ~ 0
 IRRx
 Connection ~ 1300 3050
 Connection ~ 1300 3150
+Wire Wire Line
+	1450 3050 1450 2650
+Wire Wire Line
+	1450 2650 1650 2650
+Connection ~ 1450 3050
+Text GLabel 1650 2650 2    60   Input ~ 0
+5V
 $EndSCHEMATC

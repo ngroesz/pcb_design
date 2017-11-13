@@ -61,7 +61,7 @@ U 1 1 59D5E048
 P 5150 3600
 F 0 "U2" H 4800 3750 60  0000 C CNN
 F 1 "pixart_ir" H 5100 3700 60  0000 C CNN
-F 2 "Tank:pixart_ir" H 5100 3700 60  0001 C CNN
+F 2 "modules:pixart_ir" H 5100 3700 60  0001 C CNN
 F 3 "" H 5100 3700 60  0001 C CNN
 	1    5150 3600
 	1    0    0    -1  
@@ -299,7 +299,7 @@ U 1 1 59ED8021
 P 4500 1950
 F 0 "J1" H 4500 2250 50  0000 C CNN
 F 1 "Conn_01x06" H 4500 1550 50  0000 C CNN
-F 2 "Connectors_JAE:JAE_LY20-06P-2T_2x03x2.00mm_Straight" H 4500 1950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4500 1950 50  0001 C CNN
 F 3 "" H 4500 1950 50  0001 C CNN
 	1    4500 1950
 	1    0    0    -1  
@@ -320,8 +320,6 @@ Text GLabel 3250 2050 0    60   Input ~ 12
 3.3V
 Text GLabel 3200 1200 2    60   Input ~ 12
 RESET
-Text GLabel 2900 1550 3    60   Input ~ 12
-GND
 Text GLabel 2700 3050 2    60   Input ~ 12
 3.3V
 Text GLabel 4150 2850 3    60   Input ~ 12
@@ -340,7 +338,7 @@ U 1 1 59EDA984
 P 4100 4000
 F 0 "J2" H 4100 4300 50  0000 C CNN
 F 1 "Conn_01x06" H 4100 3600 50  0000 C CNN
-F 2 "Connectors_JAE:JAE_LY20-06P-2T_2x03x2.00mm_Straight" H 4100 4000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4100 4000 50  0001 C CNN
 F 3 "" H 4100 4000 50  0001 C CNN
 	1    4100 4000
 	-1   0    0    1   
@@ -352,7 +350,7 @@ U 1 1 5A0763B4
 P 2450 5500
 F 0 "Q2" H 2650 5575 50  0000 L CNN
 F 1 "2N3904" H 2650 5500 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2650 5425 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 2650 5425 50  0001 L CIN
 F 3 "" H 2450 5500 50  0001 L CNN
 	1    2450 5500
 	1    0    0    -1  
@@ -363,7 +361,7 @@ U 1 1 5A076513
 P 2050 4650
 F 0 "Q1" H 2250 4725 50  0000 L CNN
 F 1 "2N3904" H 2250 4650 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2250 4575 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval" H 2250 4575 50  0001 L CIN
 F 3 "" H 2050 4650 50  0001 L CNN
 	1    2050 4650
 	1    0    0    -1  
@@ -386,15 +384,13 @@ U 1 1 5A07DE3C
 P 1050 3050
 F 0 "J3" H 1050 3150 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 1050 2850 50  0000 C CNN
-F 2 "" H 1050 3050 50  0001 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1050 3050 50  0001 C CNN
 F 3 "" H 1050 3050 50  0001 C CNN
 	1    1050 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 1200 3200 1200
-Wire Wire Line
-	2900 1200 2900 1550
 Wire Wire Line
 	2900 900  2900 750 
 Wire Wire Line
