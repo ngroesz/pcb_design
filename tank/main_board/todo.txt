@@ -1,0 +1,2 @@
+- fix NPN footprint (pins should be inline)
+- fix screw terminal footprint
