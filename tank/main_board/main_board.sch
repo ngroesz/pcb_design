@@ -59,17 +59,6 @@ F 3 "" H 4250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM317_TO3 U1
-U 1 1 59DD8A41
-P 2200 5550
-F 0 "U1" H 2050 5675 50  0000 C CNN
-F 1 "LM317_TO3" H 2200 5675 50  0000 L CNN
-F 2 "Custom:LM317T" H 2200 5750 50  0001 C CIN
-F 3 "" H 2200 5550 50  0001 C CNN
-	1    2200 5550
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C1
 U 1 1 59DD93A6
 P 1500 5700
@@ -89,28 +78,6 @@ F 1 "C2" H 1825 5600 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1838 5550 50  0001 C CNN
 F 3 "" H 1800 5700 50  0001 C CNN
 	1    1800 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 59DD961B
-P 2200 6000
-F 0 "R1" V 2280 6000 50  0000 C CNN
-F 1 "R1" V 2200 6000 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2130 6000 50  0001 C CNN
-F 3 "" H 2200 6000 50  0001 C CNN
-	1    2200 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 59DD96A9
-P 2600 5700
-F 0 "R2" V 2680 5700 50  0000 C CNN
-F 1 "R2" V 2600 5700 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2530 5700 50  0001 C CNN
-F 3 "" H 2600 5700 50  0001 C CNN
-	1    2600 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -182,12 +149,12 @@ $EndComp
 $Comp
 L Conn_01x04_Male J12
 U 1 1 59DDA6A6
-P 8750 2150
-F 0 "J12" H 8750 2350 50  0000 C CNN
-F 1 "SigOut" H 8750 1850 50  0000 C CNN
-F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 8750 2150 50  0001 C CNN
-F 3 "" H 8750 2150 50  0001 C CNN
-	1    8750 2150
+P 3350 1050
+F 0 "J12" H 3350 1250 50  0000 C CNN
+F 1 "SigOut" H 3350 750 50  0000 C CNN
+F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 3350 1050 50  0001 C CNN
+F 3 "" H 3350 1050 50  0001 C CNN
+	1    3350 1050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -215,40 +182,25 @@ $EndComp
 $Comp
 L Conn_01x03_Male J8
 U 1 1 59DDB019
-P 1850 2500
-F 0 "J8" H 1850 2700 50  0000 C CNN
-F 1 "Hall1" H 1850 2300 50  0000 C CNN
-F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 2500 50  0001 C CNN
-F 3 "" H 1850 2500 50  0001 C CNN
-	1    1850 2500
+P 1850 2250
+F 0 "J8" H 1850 2450 50  0000 C CNN
+F 1 "Hall1" H 1850 2050 50  0000 C CNN
+F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 2250 50  0001 C CNN
+F 3 "" H 1850 2250 50  0001 C CNN
+	1    1850 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x03_Male J7
 U 1 1 59DDB307
-P 1850 2000
-F 0 "J7" H 1850 2200 50  0000 C CNN
-F 1 "Hall2" H 1850 1800 50  0000 C CNN
-F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 2000 50  0001 C CNN
-F 3 "" H 1850 2000 50  0001 C CNN
-	1    1850 2000
+P 1850 2600
+F 0 "J7" H 1850 2800 50  0000 C CNN
+F 1 "Hall2" H 1850 2400 50  0000 C CNN
+F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 2600 50  0001 C CNN
+F 3 "" H 1850 2600 50  0001 C CNN
+	1    1850 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L SN754410 U4
-U 1 1 59DDC998
-P 10700 6100
-F 0 "U4" H 10000 6850 60  0000 C CNN
-F 1 "SN754410" H 9500 6850 60  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 9600 6850 60  0001 C CNN
-F 3 "" H 9600 6850 60  0001 C CNN
-	1    10700 6100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10250 4600
-NoConn ~ 10250 4700
-NoConn ~ 10250 5000
-NoConn ~ 10250 5100
 $Comp
 L Conn_01x06_Male J11
 U 1 1 59DDE3ED
@@ -285,45 +237,34 @@ $EndComp
 $Comp
 L Conn_01x02_Male J6
 U 1 1 59E3B885
-P 8000 750
-F 0 "J6" H 8000 850 50  0000 C CNN
-F 1 "Spk" H 8000 550 50  0000 C CNN
-F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 8000 750 50  0001 C CNN
-F 3 "" H 8000 750 50  0001 C CNN
-	1    8000 750 
+P 5300 750
+F 0 "J6" H 5300 850 50  0000 C CNN
+F 1 "Spk" H 5300 550 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 5300 750 50  0001 C CNN
+F 3 "" H 5300 750 50  0001 C CNN
+	1    5300 750 
 	-1   0    0    1   
 $EndComp
 $Comp
 L 2N3904 Q1
 U 1 1 59E3BDF3
-P 7400 1100
-F 0 "Q1" H 7600 1175 50  0000 L CNN
-F 1 "2N3904" H 7600 1100 50  0000 L CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 7600 1025 50  0001 L CIN
-F 3 "" H 7400 1100 50  0001 L CNN
-	1    7400 1100
+P 4700 1100
+F 0 "Q1" H 4900 1175 50  0000 L CNN
+F 1 "2N3904" H 4900 1100 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4900 1025 50  0001 L CIN
+F 3 "" H 4700 1100 50  0001 L CNN
+	1    4700 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R11
 U 1 1 59E3C8BC
-P 7050 1100
-F 0 "R11" V 7130 1100 50  0000 C CNN
-F 1 "R11" V 7050 1100 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6980 1100 50  0001 C CNN
-F 3 "" H 7050 1100 50  0001 C CNN
-	1    7050 1100
-	0    1    1    0   
-$EndComp
-$Comp
-L R R3
-U 1 1 59E40F3F
-P 8300 2800
-F 0 "R3" V 8380 2800 50  0000 C CNN
-F 1 "R3" V 8300 2800 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8230 2800 50  0001 C CNN
-F 3 "" H 8300 2800 50  0001 C CNN
-	1    8300 2800
+P 4350 1100
+F 0 "R11" V 4430 1100 50  0000 C CNN
+F 1 "R11" V 4350 1100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4280 1100 50  0001 C CNN
+F 3 "" H 4350 1100 50  0001 C CNN
+	1    4350 1100
 	0    1    1    0   
 $EndComp
 NoConn ~ 3350 3000
@@ -372,39 +313,27 @@ F 3 "" H 6550 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Conn_01x02 J5
-U 1 1 59FE52F9
-P 11000 3700
-F 0 "J5" H 11000 3800 50  0000 C CNN
-F 1 "Conn_01x02" H 11000 3500 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 11000 3700 50  0001 C CNN
-F 3 "" H 11000 3700 50  0001 C CNN
-	1    11000 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Conn_01x02 J2
 U 1 1 59FE54C8
-P 8300 4900
-F 0 "J2" H 8300 5000 50  0000 C CNN
-F 1 "Conn_01x02" H 8300 4700 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 8300 4900 50  0001 C CNN
-F 3 "" H 8300 4900 50  0001 C CNN
-	1    8300 4900
-	-1   0    0    1   
+P 10650 2500
+F 0 "J2" H 10650 2600 50  0000 C CNN
+F 1 "Conn_01x02" H 10650 2300 50  0000 C CNN
+F 2 "Custom:TerminalBlock_4UCON_19963_02x4.5mm_Straight" H 10650 2500 50  0001 C CNN
+F 3 "" H 10650 2500 50  0001 C CNN
+	1    10650 2500
+	1    0    0    -1  
 $EndComp
 $Comp
 L Conn_01x02 J3
 U 1 1 59FE55BC
-P 8450 3800
-F 0 "J3" H 8450 3900 50  0000 C CNN
-F 1 "Conn_01x02" H 8450 3600 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_4UCON_19963_02x3.5mm_Straight" H 8450 3800 50  0001 C CNN
-F 3 "" H 8450 3800 50  0001 C CNN
-	1    8450 3800
-	-1   0    0    1   
+P 10600 1900
+F 0 "J3" H 10600 2000 50  0000 C CNN
+F 1 "Conn_01x02" H 10600 1700 50  0000 C CNN
+F 2 "Custom:TerminalBlock_4UCON_19963_02x4.5mm_Straight" H 10600 1900 50  0001 C CNN
+F 3 "" H 10600 1900 50  0001 C CNN
+	1    10600 1900
+	1    0    0    -1  
 $EndComp
-NoConn ~ 10250 5200
 NoConn ~ 2400 4350
 $Comp
 L Conn_01x02_Male J1
@@ -416,17 +345,6 @@ F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 750 5550 50  0001 C CNN
 F 3 "" H 750 5550 50  0001 C CNN
 	1    750  5550
 	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x03_Male J4
-U 1 1 5A034DF7
-P 8750 2900
-F 0 "J4" H 8750 3100 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 8750 2700 50  0000 C CNN
-F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 8750 2900 50  0001 C CNN
-F 3 "" H 8750 2900 50  0001 C CNN
-	1    8750 2900
-	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	950  5550 1900 5550
@@ -440,8 +358,6 @@ Connection ~ 1800 5850
 Connection ~ 1800 5550
 Connection ~ 1500 5550
 Connection ~ 1500 5850
-Wire Wire Line
-	2200 5850 2600 5850
 Wire Wire Line
 	1950 5850 1950 6150
 Connection ~ 2200 6150
@@ -488,25 +404,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 4000 6550 4000
 Wire Wire Line
-	8650 3600 9100 3600
-Wire Wire Line
-	8650 3900 9100 3900
-Wire Wire Line
-	10250 3600 10800 3600
-Wire Wire Line
-	10250 3900 10800 3900
-Wire Wire Line
-	8500 4700 9100 4700
-Wire Wire Line
-	8500 5000 9100 5000
-Wire Wire Line
-	5600 2900 5250 2900
-Wire Wire Line
-	5600 2100 5600 2900
-Wire Wire Line
 	6000 3850 6000 4000
-Wire Wire Line
-	8550 2800 8450 2800
 Connection ~ 6950 3050
 Connection ~ 1350 5550
 Connection ~ 1200 5650
@@ -520,18 +418,6 @@ Wire Wire Line
 	5900 3300 6450 3300
 Connection ~ 6100 3300
 Wire Wire Line
-	8650 3600 8650 3700
-Wire Wire Line
-	8650 3900 8650 3800
-Wire Wire Line
-	10800 3600 10800 3700
-Wire Wire Line
-	10800 3900 10800 3800
-Wire Wire Line
-	8500 4800 8500 4700
-Wire Wire Line
-	8500 5000 8500 4900
-Wire Wire Line
 	2400 4750 2550 4750
 Wire Wire Line
 	2550 4750 2550 4950
@@ -543,49 +429,19 @@ Connection ~ 1150 5650
 Wire Wire Line
 	3250 4500 3250 4700
 Wire Wire Line
-	5600 2100 2050 2100
-Wire Wire Line
-	5250 3250 5550 3250
-Wire Wire Line
-	5550 3250 5550 2200
-Wire Wire Line
-	5550 2200 2100 2200
-Wire Wire Line
-	2100 2200 2100 2600
-Wire Wire Line
-	2100 2600 2050 2600
-Wire Wire Line
-	2050 3100 2700 3100
-Wire Wire Line
-	2700 3100 2700 1850
-Wire Wire Line
-	2700 1850 5700 1850
+	2100 2350 2050 2350
 Connection ~ 6450 3300
 Wire Wire Line
-	6850 1100 6900 1100
+	4150 1100 4200 1100
 Wire Wire Line
 	6100 3600 6100 3650
 Connection ~ 6100 3650
 Wire Wire Line
 	5250 3650 6700 3650
-Wire Wire Line
-	5700 1850 5700 3350
-Wire Wire Line
-	5700 3350 5250 3350
-Wire Wire Line
-	5250 3450 5750 3450
-Wire Wire Line
-	5750 3450 5750 1800
-Wire Wire Line
-	5750 1800 2800 1800
-Wire Wire Line
-	2800 1800 2800 3600
-Wire Wire Line
-	2800 3600 2050 3600
 Connection ~ 1200 5300
 Wire Wire Line
 	1200 5550 1200 5300
-Connection ~ 7350 6150
+Connection ~ 9850 2850
 Wire Wire Line
 	1050 4450 1050 5550
 Wire Wire Line
@@ -616,113 +472,35 @@ Text GLabel 2400 4450 2    60   Input ~ 0
 4.5V
 Text GLabel 2400 4550 2    60   Input ~ 0
 Rx
-Text GLabel 5250 4000 2    60   Input ~ 0
+Text GLabel 5850 4100 2    60   Input ~ 0
 Rx
 Text GLabel 2400 4650 2    60   Input ~ 0
 Tx
-Text GLabel 2050 1900 2    60   Input ~ 0
+Text GLabel 2050 2500 2    60   Input ~ 0
 4.5V
-Text GLabel 2050 2000 2    60   Input ~ 0
+Text GLabel 2050 2600 2    60   Input ~ 0
 GND
-Text GLabel 2050 2400 2    60   Input ~ 0
+Text GLabel 2050 2150 2    60   Input ~ 0
 4.5V
 Text GLabel 2050 2900 2    60   Input ~ 0
 4.5V
 Text GLabel 2050 3400 2    60   Input ~ 0
 4.5V
-Text GLabel 2050 2500 2    60   Input ~ 0
+Text GLabel 2050 2250 2    60   Input ~ 0
 GND
 Text GLabel 2050 3000 2    60   Input ~ 0
 GND
 Text GLabel 2050 3500 2    60   Input ~ 0
 GND
-Text GLabel 5250 4100 2    60   Input ~ 0
+Text GLabel 5850 4550 2    60   Input ~ 0
 Tx
-Text GLabel 9100 4500 0    60   Input ~ 0
-MEnable
-Text GLabel 9100 3400 0    60   Input ~ 0
-MEnable
-$Comp
-L SN754410 U3
-U 1 1 59DDB8C0
-P 10700 5000
-F 0 "U3" H 10000 5750 60  0000 C CNN
-F 1 "SN754410" H 9500 5750 60  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 9600 5750 60  0001 C CNN
-F 3 "" H 9600 5750 60  0001 C CNN
-	1    10700 5000
-	1    0    0    -1  
-$EndComp
-Text GLabel 10250 3700 2    60   Input ~ 0
-GND
-Text GLabel 10250 3800 2    60   Input ~ 0
-GND
-Text GLabel 10250 4800 2    60   Input ~ 0
-GND
-Text GLabel 10250 4900 2    60   Input ~ 0
-GND
-Text GLabel 10250 4100 2    60   Input ~ 0
-MEnable
-Text GLabel 9100 4100 0    60   Input ~ 0
-5V
-Text GLabel 9100 5200 0    60   Input ~ 0
-5V
-Text GLabel 9100 4900 0    60   Input ~ 0
-GND
-Text GLabel 9100 4800 0    60   Input ~ 0
-GND
-Text GLabel 9100 3800 0    60   Input ~ 0
-GND
-Text GLabel 9100 3700 0    60   Input ~ 0
-GND
-Text GLabel 5250 2500 2    60   Input ~ 0
-M0+
-Text GLabel 9100 3500 0    60   Input ~ 0
-M0+
-Text GLabel 5250 4600 2    60   Input ~ 0
-M0-
-Text GLabel 9100 4000 0    60   Input ~ 0
-M0-
 Text GLabel 5250 4500 2    60   Input ~ 0
 MEnable
-Wire Wire Line
-	8550 2900 8450 2900
-$Comp
-L R R4
-U 1 1 59E40FBE
-P 8300 2900
-F 0 "R4" V 8380 2900 50  0000 C CNN
-F 1 "R4" V 8300 2900 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8230 2900 50  0001 C CNN
-F 3 "" H 8300 2900 50  0001 C CNN
-	1    8300 2900
-	0    1    1    0   
-$EndComp
 Text GLabel 5250 4400 2    60   Input ~ 0
-LED0
-Text GLabel 8150 2900 0    60   Input ~ 0
 LED0
 Text GLabel 5250 3550 2    60   Input ~ 0
 LED1
-Text GLabel 8150 2800 0    60   Input ~ 0
-LED1
-Text GLabel 5250 2600 2    60   Input ~ 0
-M1+
-Text GLabel 10250 3500 2    60   Input ~ 0
-M1+
-Text GLabel 10250 4000 2    60   Input ~ 0
-M1-
-Text GLabel 5250 2700 2    60   Input ~ 0
-M1-
-Text GLabel 5250 2400 2    60   Input ~ 0
-M2+
-Text GLabel 9100 4600 0    60   Input ~ 0
-M2+
-Text GLabel 5250 2800 2    60   Input ~ 0
-M2-
-Text GLabel 9100 5100 0    60   Input ~ 0
-M2-
-Text GLabel 7500 1300 2    60   Input ~ 0
+Text GLabel 4800 1300 2    60   Input ~ 0
 GND
 Text GLabel 6450 3300 2    60   Input ~ 0
 4.5V
@@ -730,17 +508,15 @@ Text GLabel 6700 3650 2    60   Input ~ 0
 SDA
 Text GLabel 6700 3750 2    60   Input ~ 0
 SCL
-Text GLabel 8550 2150 0    60   Input ~ 0
+Text GLabel 3150 1050 0    60   Input ~ 0
 SDA
-Text GLabel 8550 2250 0    60   Input ~ 0
+Text GLabel 3150 1150 0    60   Input ~ 0
 SCL
-Text GLabel 7800 750  0    60   Input ~ 0
-GND
 Wire Wire Line
-	7500 900  7500 650 
+	4800 900  4800 650 
 Wire Wire Line
-	7500 650  7800 650 
-Text GLabel 6850 1100 0    60   Input ~ 0
+	4800 650  5100 650 
+Text GLabel 4150 1100 0    60   Input ~ 0
 SPK
 Text GLabel 5250 4700 2    60   Input ~ 0
 SPK
@@ -754,17 +530,350 @@ Text GLabel 5250 4200 2    60   Input ~ 0
 IRRx
 Text GLabel 5250 4300 2    60   Input ~ 0
 IRTx
-Text GLabel 8550 3000 0    60   Input ~ 0
-GND
 Text GLabel 6950 3050 2    60   Input ~ 0
 GND
-Text GLabel 10250 3400 2    60   Input ~ 0
-4.5V
-Text GLabel 10250 4500 2    60   Input ~ 0
-4.5V
 Connection ~ 6450 4000
-Text GLabel 8550 2050 0    60   Input ~ 0
+Text GLabel 3150 950  0    60   Input ~ 0
 IRTx
-Text GLabel 8550 1950 0    60   Input ~ 0
+Text GLabel 3150 850  0    60   Input ~ 0
 IRRx
+Text GLabel 5100 750  0    60   Input ~ 0
+4.5V
+$Comp
+L L7805 U1
+U 1 1 5A47F96E
+P 2200 5550
+F 0 "U1" H 2050 5675 50  0000 C CNN
+F 1 "L7805" H 2200 5675 50  0000 L CNN
+F 2 "Custom:L7805" H 2225 5400 50  0001 L CIN
+F 3 "" H 2200 5500 50  0001 C CNN
+	1    2200 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6150 2200 5850
+Connection ~ 2200 5850
+$Comp
+L TB6612FNG U4
+U 1 1 5A4816E6
+P 9350 2750
+F 0 "U4" H 8900 3700 50  0000 C CNN
+F 1 "TB6612FNG" H 9400 3050 50  0000 C CNN
+F 2 "Custom:TB6612FNG" H 9400 2250 50  0001 C CNN
+F 3 "" H 8850 3650 50  0001 C CNN
+	1    9350 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 1900 10400 1900
+Wire Wire Line
+	10000 2000 10000 1900
+Wire Wire Line
+	10000 2300 10100 2300
+Wire Wire Line
+	10100 2300 10100 2000
+Wire Wire Line
+	10100 2000 10400 2000
+Wire Wire Line
+	10000 2400 10000 2300
+Wire Wire Line
+	10000 2500 10450 2500
+Wire Wire Line
+	10000 2600 10000 2500
+Wire Wire Line
+	10000 3000 10000 2900
+Wire Wire Line
+	10000 2900 10400 2900
+Wire Wire Line
+	10400 2900 10400 2600
+Wire Wire Line
+	10400 2600 10450 2600
+NoConn ~ 8450 5650
+NoConn ~ 8450 5750
+NoConn ~ 8450 5950
+Text GLabel 7050 5650 0    60   Input ~ 0
+GND
+Wire Wire Line
+	7050 5550 7000 5550
+Wire Wire Line
+	7000 5550 7000 5250
+Wire Wire Line
+	6900 5250 7050 5250
+Wire Wire Line
+	7050 5350 6900 5350
+Connection ~ 7000 5250
+Text GLabel 6900 5350 0    60   Input ~ 0
+SRCLR
+Text GLabel 6900 5250 0    60   Input ~ 0
+SRCLK
+Text GLabel 7050 5050 0    60   Input ~ 0
+SER
+Text GLabel 7650 1900 0    60   Input ~ 0
+5V
+Wire Wire Line
+	8650 1900 8650 2000
+Wire Wire Line
+	7650 1900 8650 1900
+Wire Wire Line
+	10000 2200 10000 2100
+Wire Wire Line
+	10000 2100 10150 2100
+Wire Wire Line
+	10000 2800 10000 2700
+Wire Wire Line
+	10000 2700 10050 2700
+Text GLabel 10150 2100 2    60   Input ~ 0
+GND
+Text GLabel 10050 2700 2    60   Input ~ 0
+GND
+Text GLabel 8650 2500 0    60   Input ~ 0
+MEnable
+Text GLabel 8650 2600 0    60   Input ~ 0
+4.5V
+Text GLabel 8650 2400 0    60   Input ~ 0
+GND
+Text GLabel 8650 2700 0    60   Input ~ 0
+M0+
+Text GLabel 8650 2800 0    60   Input ~ 0
+M0-
+Text GLabel 8650 2300 0    60   Input ~ 0
+M1+
+Text GLabel 8650 2200 0    60   Input ~ 0
+M1-
+Text GLabel 8450 5050 2    60   Input ~ 0
+M0+
+Text GLabel 8450 5150 2    60   Input ~ 0
+M0-
+Text GLabel 8450 5250 2    60   Input ~ 0
+M1+
+Text GLabel 8450 5350 2    60   Input ~ 0
+M1-
+Wire Wire Line
+	8200 1900 8200 3000
+Wire Wire Line
+	8200 3000 8650 3000
+Connection ~ 8200 1900
+$Comp
+L C C8
+U 1 1 5A488C5C
+P 7750 2050
+F 0 "C8" H 7775 2150 50  0000 L CNN
+F 1 "C" H 7775 1950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 1900 50  0001 C CNN
+F 3 "" H 7750 2050 50  0001 C CNN
+	1    7750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C10
+U 1 1 5A488E07
+P 8000 2050
+F 0 "C10" H 8025 2150 50  0000 L CNN
+F 1 "CP" H 8025 1950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8038 1900 50  0001 C CNN
+F 3 "" H 8000 2050 50  0001 C CNN
+	1    8000 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2200 8000 2200
+Connection ~ 7750 2200
+Text GLabel 7600 2200 0    60   Input ~ 0
+GND
+Text GLabel 5850 4250 2    60   Input ~ 0
+Hall0
+Text GLabel 5850 4400 2    60   Input ~ 0
+Hall1
+Wire Wire Line
+	5250 4000 5850 4000
+Wire Wire Line
+	5850 4000 5850 4250
+Wire Wire Line
+	5250 4100 5750 4100
+Wire Wire Line
+	5750 4100 5750 4400
+Wire Wire Line
+	5750 4400 5850 4400
+Wire Wire Line
+	5850 4400 5850 4550
+Text GLabel 5250 3450 2    60   Input ~ 0
+Sonar1
+Text GLabel 2050 3600 2    60   Input ~ 0
+Sonar1
+Text GLabel 5250 3350 2    60   Input ~ 0
+Sonar0
+Text GLabel 2050 3100 2    60   Input ~ 0
+Sonar0
+Text GLabel 2100 2350 2    60   Input ~ 0
+Hall0
+Text GLabel 2050 2700 2    60   Input ~ 0
+Hall1
+$Comp
+L Conn_01x05 J4
+U 1 1 5A48A51B
+P 6900 1550
+F 0 "J4" H 6900 1850 50  0000 C CNN
+F 1 "Conn_01x05" H 6900 1250 50  0000 C CNN
+F 2 "Connectors_JST:JST_EH_B05B-EH-A_05x2.50mm_Straight" H 6900 1550 50  0001 C CNN
+F 3 "" H 6900 1550 50  0001 C CNN
+	1    6900 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 1350 0    60   Input ~ 0
+4.5V
+Text GLabel 6700 1450 0    60   Input ~ 0
+LED0
+Text GLabel 6700 1550 0    60   Input ~ 0
+LED1
+Text GLabel 6700 1650 0    60   Input ~ 0
+LED2
+Text GLabel 6700 1750 0    60   Input ~ 0
+LED3
+Text GLabel 5250 2500 2    60   Input ~ 0
+M0PWM
+Text GLabel 8650 2900 0    60   Input ~ 0
+M0PWM
+Text GLabel 5250 2600 2    60   Input ~ 0
+M1PWM
+Text GLabel 8650 2100 0    60   Input ~ 0
+M1PWM
+Text GLabel 5250 2700 2    60   Input ~ 0
+M2PWM
+Text GLabel 5250 2400 2    60   Input ~ 0
+SER
+Text GLabel 5250 2800 2    60   Input ~ 0
+SRCLK
+Text GLabel 5250 2900 2    60   Input ~ 0
+SRCLR
+Text GLabel 5250 3250 2    60   Input ~ 0
+LED2
+Text GLabel 5250 4600 2    60   Input ~ 0
+LED3
+Text GLabel 8450 5450 2    60   Input ~ 0
+M2+
+Text GLabel 8450 5550 2    60   Input ~ 0
+M2-
+$Comp
+L Conn_01x02 J5
+U 1 1 5A48BFCF
+P 10600 3300
+F 0 "J5" H 10600 3400 50  0000 C CNN
+F 1 "Conn_01x02" H 10600 3100 50  0000 C CNN
+F 2 "Custom:TerminalBlock_4UCON_19963_02x4.5mm_Straight" H 10600 3300 50  0001 C CNN
+F 3 "" H 10600 3300 50  0001 C CNN
+	1    10600 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 4250
+$Comp
+L TB6612FNG U5
+U 1 1 5A48BFD6
+P 9350 4150
+F 0 "U5" H 8900 5100 50  0000 C CNN
+F 1 "TB6612FNG" H 9400 4450 50  0000 C CNN
+F 2 "Custom:TB6612FNG" H 9400 3650 50  0001 C CNN
+F 3 "" H 8850 5050 50  0001 C CNN
+	1    9350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 3300 10400 3300
+Wire Wire Line
+	10000 3400 10000 3300
+Wire Wire Line
+	10000 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 3400
+Wire Wire Line
+	10100 3400 10400 3400
+Wire Wire Line
+	10000 3800 10000 3700
+Text GLabel 7650 3300 0    60   Input ~ 0
+5V
+Wire Wire Line
+	8650 3300 8650 3400
+Wire Wire Line
+	7650 3300 8650 3300
+Wire Wire Line
+	10000 3600 10000 3500
+Wire Wire Line
+	10000 3500 10150 3500
+Wire Wire Line
+	10000 4200 10000 4100
+Wire Wire Line
+	10000 4100 10050 4100
+Text GLabel 10150 3500 2    60   Input ~ 0
+GND
+Text GLabel 10050 4100 2    60   Input ~ 0
+GND
+Text GLabel 8650 3900 0    60   Input ~ 0
+MEnable
+Text GLabel 8650 4000 0    60   Input ~ 0
+4.5V
+Text GLabel 8650 3800 0    60   Input ~ 0
+GND
+Text GLabel 8650 4100 0    60   Input ~ 0
+M2+
+Text GLabel 8650 4200 0    60   Input ~ 0
+M2-
+Wire Wire Line
+	8200 3300 8200 4400
+Wire Wire Line
+	8200 4400 8650 4400
+Connection ~ 8200 3300
+$Comp
+L C C9
+U 1 1 5A48BFFB
+P 7750 3450
+F 0 "C9" H 7775 3550 50  0000 L CNN
+F 1 "C" H 7775 3350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7788 3300 50  0001 C CNN
+F 3 "" H 7750 3450 50  0001 C CNN
+	1    7750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C11
+U 1 1 5A48C001
+P 8000 3450
+F 0 "C11" H 8025 3550 50  0000 L CNN
+F 1 "CP" H 8025 3350 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8038 3300 50  0001 C CNN
+F 3 "" H 8000 3450 50  0001 C CNN
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3600 8000 3600
+Connection ~ 7750 3600
+Text GLabel 7600 3600 0    60   Input ~ 0
+GND
+Text GLabel 8650 4300 0    60   Input ~ 0
+M2PWM
+NoConn ~ 8650 3500
+NoConn ~ 8650 3600
+NoConn ~ 8650 3700
+NoConn ~ 10000 4300
+NoConn ~ 10000 4400
+NoConn ~ 10000 4000
+NoConn ~ 10000 3900
+Connection ~ 8000 1900
+Connection ~ 7750 1900
+Connection ~ 7750 3300
+Connection ~ 8000 3300
+$Comp
+L SN74HC595 U3
+U 1 1 5A486ACA
+P 7750 5500
+F 0 "U3" H 7900 6100 50  0000 C CNN
+F 1 "SN74HC595" H 7750 4900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 7750 5500 50  0001 C CNN
+F 3 "" H 7750 5500 50  0001 C CNN
+	1    7750 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7450 4950 1    60   Input ~ 0
+4.5V
+Text GLabel 7450 6050 3    60   Input ~ 0
+GND
 $EndSCHEMATC
