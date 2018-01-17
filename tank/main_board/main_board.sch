@@ -538,7 +538,7 @@ IRTx
 Text GLabel 3150 850  0    60   Input ~ 0
 IRRx
 Text GLabel 5100 750  0    60   Input ~ 0
-4.5V
+5V
 $Comp
 L L7805 U1
 U 1 1 5A47F96E
@@ -670,7 +670,7 @@ U 1 1 5A488E07
 P 8000 2050
 F 0 "C10" H 8025 2150 50  0000 L CNN
 F 1 "CP" H 8025 1950 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8038 1900 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 8038 1900 50  0001 C CNN
 F 3 "" H 8000 2050 50  0001 C CNN
 	1    8000 2050
 	1    0    0    -1  
@@ -720,7 +720,7 @@ F 3 "" H 6900 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6700 1350 0    60   Input ~ 0
-4.5V
+5V
 Text GLabel 6700 1450 0    60   Input ~ 0
 LED0
 Text GLabel 6700 1550 0    60   Input ~ 0
@@ -827,7 +827,7 @@ U 1 1 5A48BFFB
 P 7750 3450
 F 0 "C9" H 7775 3550 50  0000 L CNN
 F 1 "C" H 7775 3350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 7788 3300 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 3300 50  0001 C CNN
 F 3 "" H 7750 3450 50  0001 C CNN
 	1    7750 3450
 	1    0    0    -1  
@@ -838,7 +838,7 @@ U 1 1 5A48C001
 P 8000 3450
 F 0 "C11" H 8025 3550 50  0000 L CNN
 F 1 "CP" H 8025 3350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 8038 3300 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D4.0mm_P2.00mm" H 8038 3300 50  0001 C CNN
 F 3 "" H 8000 3450 50  0001 C CNN
 	1    8000 3450
 	1    0    0    -1  
