@@ -1,2 +1,4 @@
-- fix NPN footprint (pins should be inline)
-- fix screw terminal footprint
+- adjust motor caps
+- add uC cap
+- add missing 4.5 line on left side
+- incoming power supply?

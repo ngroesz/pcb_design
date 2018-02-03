@@ -538,7 +538,7 @@ IRTx
 Text GLabel 3150 850  0    60   Input ~ 0
 IRRx
 Text GLabel 5100 750  0    60   Input ~ 0
-4.5V
+5V
 $Comp
 L L7805 U1
 U 1 1 5A47F96E
@@ -720,7 +720,7 @@ F 3 "" H 6900 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6700 1350 0    60   Input ~ 0
-4.5V
+5V
 Text GLabel 6700 1450 0    60   Input ~ 0
 LED0
 Text GLabel 6700 1550 0    60   Input ~ 0
@@ -765,41 +765,20 @@ F 3 "" H 10600 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9850 4250
-$Comp
-L TB6612FNG U5
-U 1 1 5A48BFD6
-P 9350 4150
-F 0 "U5" H 8900 5100 50  0000 C CNN
-F 1 "TB6612FNG" H 9400 4450 50  0000 C CNN
-F 2 "Custom:TB6612FNG" H 9400 3650 50  0001 C CNN
-F 3 "" H 8850 5050 50  0001 C CNN
-	1    9350 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10000 3300 10400 3300
-Wire Wire Line
-	10000 3400 10000 3300
 Wire Wire Line
 	10000 3700 10100 3700
 Wire Wire Line
 	10100 3700 10100 3400
 Wire Wire Line
 	10100 3400 10400 3400
-Wire Wire Line
-	10000 3800 10000 3700
 Text GLabel 7650 3300 0    60   Input ~ 0
 5V
 Wire Wire Line
-	8650 3300 8650 3400
-Wire Wire Line
 	7650 3300 8650 3300
 Wire Wire Line
-	10000 3600 10000 3500
-Wire Wire Line
 	10000 3500 10150 3500
-Wire Wire Line
-	10000 4200 10000 4100
 Wire Wire Line
 	10000 4100 10050 4100
 Text GLabel 10150 3500 2    60   Input ~ 0
@@ -876,4 +855,25 @@ Text GLabel 7450 4950 1    60   Input ~ 0
 4.5V
 Text GLabel 7450 6050 3    60   Input ~ 0
 GND
+$Comp
+L TB6612FNG U5
+U 1 1 5A48BFD6
+P 9350 4150
+F 0 "U5" H 8900 5100 50  0000 C CNN
+F 1 "TB6612FNG" H 9400 4450 50  0000 C CNN
+F 2 "Custom:TB6612FNG" H 9400 3650 50  0001 C CNN
+F 3 "" H 8850 5050 50  0001 C CNN
+	1    9350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4200 10000 4100
+Wire Wire Line
+	10000 3800 10000 3700
+Wire Wire Line
+	10000 3600 10000 3500
+Wire Wire Line
+	10000 3400 10000 3300
+Wire Wire Line
+	8650 3300 8650 3400
 $EndSCHEMATC
