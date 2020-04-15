@@ -1,0 +1,47 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP BMF055
+D Custom programmable 9-axis motion sensor
+K 9-axis motion sensor IMU SAMD20 ARM Cortex-M0+
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMF055-DS000.pdf
+$ENDCMP
+#
+$CMP Crystal_4pin
+D ECS-100AX
+K 4 pin crystal
+$ENDCMP
+#
+$CMP Crystal_GND23
+D ECS-100AX
+K 4 pin crystal
+$ENDCMP
+#
+$CMP SN74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP SN754410
+D sn754410 quadruple half-h driver
+K half-bridge motor driver
+$ENDCMP
+#
+$CMP TB6612FNG
+D Driver IC for Dual DC Motor
+K motor driver
+F https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html
+$ENDCMP
+#
+$CMP pixart_ir
+D ir camera
+K pixart ir camera
+$ENDCMP
+#
+#End Doc Library

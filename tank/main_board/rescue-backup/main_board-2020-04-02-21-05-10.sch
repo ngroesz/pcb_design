@@ -1,9 +1,43 @@
-EESchema Schematic File Version 4
-EELAYER 30 0
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom
+LIBS:main_board-cache
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -14,7 +48,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L main_board-rescue:ATMEGA328P-PU U2
+L ATMEGA328P-PU U2
 U 1 1 59DD8902
 P 4250 3500
 F 0 "U2" H 3500 4750 50  0000 L BNN
@@ -25,7 +59,7 @@ F 3 "" H 4250 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:CP C1
+L CP C1
 U 1 1 59DD93A6
 P 1500 5700
 F 0 "C1" H 1525 5800 50  0000 L CNN
@@ -36,7 +70,7 @@ F 3 "" H 1500 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:C C2
+L C C2
 U 1 1 59DD953D
 P 1800 5700
 F 0 "C2" H 1825 5800 50  0000 L CNN
@@ -47,7 +81,7 @@ F 3 "" H 1800 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:CP C3
+L CP C3
 U 1 1 59DD96F4
 P 2850 5700
 F 0 "C3" H 2875 5800 50  0000 L CNN
@@ -58,7 +92,7 @@ F 3 "" H 2850 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R6
+L R R6
 U 1 1 59DD999D
 P 6100 3450
 F 0 "R6" V 6180 3450 50  0000 C CNN
@@ -69,7 +103,7 @@ F 3 "" H 6100 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:R R7
+L R R7
 U 1 1 59DD9A0D
 P 5900 3450
 F 0 "R7" V 5980 3450 50  0000 C CNN
@@ -80,7 +114,7 @@ F 3 "" H 5900 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Crystal Y1
+L Crystal Y1
 U 1 1 59DD9B67
 P 6500 3050
 F 0 "Y1" H 6500 3200 50  0000 C CNN
@@ -91,7 +125,7 @@ F 3 "" H 6500 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L main_board-rescue:C_Small C6
+L C_Small C6
 U 1 1 59DDA0E5
 P 6800 3200
 F 0 "C6" H 6810 3270 50  0000 L CNN
@@ -102,7 +136,7 @@ F 3 "" H 6800 3200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L main_board-rescue:C_Small C5
+L C_Small C5
 U 1 1 59DDA143
 P 6800 2900
 F 0 "C5" H 6810 2970 50  0000 L CNN
@@ -113,7 +147,7 @@ F 3 "" H 6800 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x04_Male J12
+L Conn_01x04_Male J12
 U 1 1 59DDA6A6
 P 3350 1050
 F 0 "J12" H 3350 1250 50  0000 C CNN
@@ -124,7 +158,7 @@ F 3 "" H 3350 1050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:C_Small C4
+L C_Small C4
 U 1 1 59DDAF03
 P 3250 4400
 F 0 "C4" H 3260 4470 50  0000 L CNN
@@ -135,7 +169,7 @@ F 3 "" H 3250 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R10
+L R R10
 U 1 1 59DDB114
 P 6450 3850
 F 0 "R10" V 6530 3850 50  0000 C CNN
@@ -146,7 +180,7 @@ F 3 "" H 6450 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J8
+L Conn_01x03_Male J8
 U 1 1 59DDB019
 P 1850 2250
 F 0 "J8" H 1850 2450 50  0000 C CNN
@@ -157,7 +191,7 @@ F 3 "" H 1850 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J7
+L Conn_01x03_Male J7
 U 1 1 59DDB307
 P 1850 2600
 F 0 "J7" H 1850 2800 50  0000 C CNN
@@ -168,7 +202,7 @@ F 3 "" H 1850 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x06_Male J11
+L Conn_01x06_Male J11
 U 1 1 59DDE3ED
 P 2200 4450
 F 0 "J11" H 2200 4750 50  0000 C CNN
@@ -179,7 +213,7 @@ F 3 "" H 2200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J9
+L Conn_01x03_Male J9
 U 1 1 59DE306D
 P 1850 3000
 F 0 "J9" H 1850 3200 50  0000 C CNN
@@ -190,7 +224,7 @@ F 3 "" H 1850 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J10
+L Conn_01x03_Male J10
 U 1 1 59DE3178
 P 1850 3500
 F 0 "J10" H 1850 3700 50  0000 C CNN
@@ -201,7 +235,7 @@ F 3 "" H 1850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02_Male J6
+L Conn_01x02_Male J6
 U 1 1 59E3B885
 P 5300 750
 F 0 "J6" H 5300 850 50  0000 C CNN
@@ -212,7 +246,7 @@ F 3 "" H 5300 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:2N3904 Q1
+L 2N3904 Q1
 U 1 1 59E3BDF3
 P 4700 1100
 F 0 "Q1" H 4900 1175 50  0000 L CNN
@@ -223,7 +257,7 @@ F 3 "" H 4700 1100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R11
+L R R11
 U 1 1 59E3C8BC
 P 4350 1100
 F 0 "R11" V 4430 1100 50  0000 C CNN
@@ -235,7 +269,7 @@ F 3 "" H 4350 1100 50  0001 C CNN
 $EndComp
 NoConn ~ 3350 3000
 $Comp
-L main_board-rescue:Conn_01x02_Male J16
+L Conn_01x02_Male J16
 U 1 1 59E562FD
 P 700 4450
 F 0 "J16" H 700 4550 50  0000 C CNN
@@ -246,7 +280,7 @@ F 3 "" H 700 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L PWR_FLAG #FLG01
 U 1 1 59E6BC0C
 P 1350 5550
 F 0 "#FLG01" H 1350 5625 50  0001 C CNN
@@ -257,7 +291,7 @@ F 3 "" H 1350 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L PWR_FLAG #FLG02
 U 1 1 59E6BD3A
 P 1200 5650
 F 0 "#FLG02" H 1200 5725 50  0001 C CNN
@@ -268,7 +302,7 @@ F 3 "" H 1200 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:CP C7
+L CP C7
 U 1 1 59FE341B
 P 6550 4150
 F 0 "C7" H 6575 4250 50  0000 L CNN
@@ -279,7 +313,7 @@ F 3 "" H 6550 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02 J2
+L Conn_01x02 J2
 U 1 1 59FE54C8
 P 10650 2500
 F 0 "J2" H 10650 2600 50  0000 C CNN
@@ -290,7 +324,7 @@ F 3 "" H 10650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02 J3
+L Conn_01x02 J3
 U 1 1 59FE55BC
 P 10600 1900
 F 0 "J3" H 10600 2000 50  0000 C CNN
@@ -302,7 +336,7 @@ F 3 "" H 10600 1900 50  0001 C CNN
 $EndComp
 NoConn ~ 2400 4350
 $Comp
-L main_board-rescue:Conn_01x02_Male J1
+L Conn_01x02_Male J1
 U 1 1 5A02F09E
 P 750 5550
 F 0 "J1" H 750 5650 50  0000 C CNN
@@ -313,13 +347,13 @@ F 3 "" H 750 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	950  5550 1050 5550
+	950  5550 1900 5550
 Wire Wire Line
-	950  5650 1000 5650
+	950  5650 1350 5650
 Wire Wire Line
 	1350 5650 1350 5850
 Wire Wire Line
-	1350 5850 1500 5850
+	1350 5850 1950 5850
 Connection ~ 1800 5850
 Connection ~ 1800 5550
 Connection ~ 1500 5550
@@ -330,32 +364,35 @@ Connection ~ 2200 6150
 Wire Wire Line
 	2850 6150 2850 5850
 Connection ~ 2850 6150
+Connection ~ 2600 5550
 Connection ~ 2850 5550
 Wire Wire Line
-	5250 3750 5900 3750
+	5250 3750 6700 3750
 Wire Wire Line
 	5250 3000 6300 3000
 Wire Wire Line
 	6300 3000 6300 2900
 Wire Wire Line
-	6300 2900 6500 2900
+	6300 2900 6700 2900
 Wire Wire Line
 	5250 3100 6300 3100
 Wire Wire Line
 	6300 3100 6300 3200
 Wire Wire Line
-	6300 3200 6500 3200
+	6300 3200 6700 3200
 Connection ~ 6500 3200
 Connection ~ 6500 2900
 Wire Wire Line
 	6900 2900 6950 2900
+Wire Wire Line
+	6950 2900 6950 3200
 Wire Wire Line
 	6950 3200 6900 3200
 Wire Wire Line
 	3350 4600 3250 4600
 Connection ~ 3250 4700
 Wire Wire Line
-	3100 2400 3250 2400
+	3100 2400 3350 2400
 Wire Wire Line
 	3350 2400 3350 2700
 Wire Wire Line
@@ -365,9 +402,10 @@ Connection ~ 3250 4600
 Wire Wire Line
 	5250 3850 6000 3850
 Wire Wire Line
-	6000 4000 6450 4000
+	6000 4000 6550 4000
 Wire Wire Line
 	6000 3850 6000 4000
+Connection ~ 6950 3050
 Connection ~ 1350 5550
 Connection ~ 1200 5650
 Connection ~ 1200 5550
@@ -377,7 +415,7 @@ Wire Wire Line
 	5900 3600 5900 3750
 Connection ~ 5900 3750
 Wire Wire Line
-	5900 3300 6100 3300
+	5900 3300 6450 3300
 Connection ~ 6100 3300
 Wire Wire Line
 	2400 4750 2550 4750
@@ -387,19 +425,23 @@ Wire Wire Line
 	2550 4950 6550 4950
 Wire Wire Line
 	6550 4950 6550 4300
+Connection ~ 1150 5650
 Wire Wire Line
-	3250 4500 3250 4600
+	3250 4500 3250 4700
 Wire Wire Line
 	2100 2350 2050 2350
+Connection ~ 6450 3300
 Wire Wire Line
 	4150 1100 4200 1100
 Wire Wire Line
 	6100 3600 6100 3650
 Connection ~ 6100 3650
 Wire Wire Line
-	5250 3650 6100 3650
+	5250 3650 6700 3650
+Connection ~ 1200 5300
 Wire Wire Line
 	1200 5550 1200 5300
+Connection ~ 9850 2850
 Wire Wire Line
 	1050 4450 1050 5550
 Wire Wire Line
@@ -411,7 +453,7 @@ Wire Wire Line
 	1000 4550 1000 5650
 Connection ~ 1000 5650
 Wire Wire Line
-	1950 6150 2200 6150
+	1950 6150 3200 6150
 Text GLabel 3200 6150 2    60   Input ~ 0
 GND
 Text GLabel 1200 5300 2    60   Input ~ 0
@@ -422,11 +464,15 @@ Text GLabel 750  5650 0    60   Input ~ 0
 GND
 Text GLabel 2400 4250 2    60   Input ~ 0
 GND
+Wire Wire Line
+	2500 5550 3250 5550
 Text GLabel 3250 5550 2    60   Input ~ 0
 4.5V
 Text GLabel 2400 4450 2    60   Input ~ 0
 4.5V
 Text GLabel 2400 4550 2    60   Input ~ 0
+Rx
+Text GLabel 5850 4100 2    60   Input ~ 0
 Rx
 Text GLabel 2400 4650 2    60   Input ~ 0
 Tx
@@ -446,6 +492,8 @@ Text GLabel 2050 3000 2    60   Input ~ 0
 GND
 Text GLabel 2050 3500 2    60   Input ~ 0
 GND
+Text GLabel 5850 4550 2    60   Input ~ 0
+Tx
 Text GLabel 5250 4500 2    60   Input ~ 0
 MEnable
 Text GLabel 5250 4400 2    60   Input ~ 0
@@ -473,7 +521,7 @@ SPK
 Text GLabel 5250 4700 2    60   Input ~ 0
 SPK
 Wire Wire Line
-	3200 4700 3250 4700
+	3200 4700 3350 4700
 Text GLabel 3200 4700 0    60   Input ~ 0
 GND
 Text GLabel 3100 2400 0    60   Input ~ 0
@@ -492,7 +540,7 @@ IRRx
 Text GLabel 5100 750  0    60   Input ~ 0
 5V
 $Comp
-L main_board-rescue:L7805 U1
+L L7805 U1
 U 1 1 5A47F96E
 P 2200 5550
 F 0 "U1" H 2050 5675 50  0000 C CNN
@@ -504,8 +552,9 @@ F 3 "" H 2200 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 6150 2200 5850
+Connection ~ 2200 5850
 $Comp
-L custom:TB6612FNG U4
+L TB6612FNG U4
 U 1 1 5A4816E6
 P 9350 2750
 F 0 "U4" H 8900 3700 50  0000 C CNN
@@ -549,7 +598,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 5550 7000 5250
 Wire Wire Line
-	6900 5250 7000 5250
+	6900 5250 7050 5250
 Wire Wire Line
 	7050 5350 6900 5350
 Connection ~ 7000 5250
@@ -564,7 +613,7 @@ Text GLabel 7650 1900 0    60   Input ~ 0
 Wire Wire Line
 	8650 1900 8650 2000
 Wire Wire Line
-	7650 1900 7750 1900
+	7650 1900 8650 1900
 Wire Wire Line
 	10000 2200 10000 2100
 Wire Wire Line
@@ -605,7 +654,7 @@ Wire Wire Line
 	8200 3000 8650 3000
 Connection ~ 8200 1900
 $Comp
-L main_board-rescue:C C8
+L C C8
 U 1 1 5A488C5C
 P 7750 2050
 F 0 "C8" H 7775 2150 50  0000 L CNN
@@ -616,7 +665,7 @@ F 3 "" H 7750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:CP C10
+L CP C10
 U 1 1 5A488E07
 P 8000 2050
 F 0 "C10" H 8025 2150 50  0000 L CNN
@@ -627,7 +676,7 @@ F 3 "" H 8000 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 2200 7750 2200
+	7600 2200 8000 2200
 Connection ~ 7750 2200
 Text GLabel 7600 2200 0    60   Input ~ 0
 GND
@@ -645,6 +694,8 @@ Wire Wire Line
 	5750 4100 5750 4400
 Wire Wire Line
 	5750 4400 5850 4400
+Wire Wire Line
+	5850 4400 5850 4550
 Text GLabel 5250 3450 2    60   Input ~ 0
 Sonar1
 Text GLabel 2050 3600 2    60   Input ~ 0
@@ -658,7 +709,7 @@ Hall0
 Text GLabel 2050 2700 2    60   Input ~ 0
 Hall1
 $Comp
-L main_board-rescue:Conn_01x05 J4
+L Conn_01x05 J4
 U 1 1 5A48A51B
 P 6900 1550
 F 0 "J4" H 6900 1850 50  0000 C CNN
@@ -703,7 +754,7 @@ M2+
 Text GLabel 8450 5550 2    60   Input ~ 0
 M2-
 $Comp
-L main_board-rescue:Conn_01x02 J5
+L Conn_01x02 J5
 U 1 1 5A48BFCF
 P 10600 3300
 F 0 "J5" H 10600 3400 50  0000 C CNN
@@ -713,6 +764,7 @@ F 3 "" H 10600 3300 50  0001 C CNN
 	1    10600 3300
 	1    0    0    -1  
 $EndComp
+Connection ~ 9850 4250
 Wire Wire Line
 	10000 3300 10400 3300
 Wire Wire Line
@@ -724,7 +776,7 @@ Wire Wire Line
 Text GLabel 7650 3300 0    60   Input ~ 0
 5V
 Wire Wire Line
-	7650 3300 7750 3300
+	7650 3300 8650 3300
 Wire Wire Line
 	10000 3500 10150 3500
 Wire Wire Line
@@ -749,7 +801,7 @@ Wire Wire Line
 	8200 4400 8650 4400
 Connection ~ 8200 3300
 $Comp
-L main_board-rescue:C C9
+L C C9
 U 1 1 5A48BFFB
 P 7750 3450
 F 0 "C9" H 7775 3550 50  0000 L CNN
@@ -760,7 +812,7 @@ F 3 "" H 7750 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:CP C11
+L CP C11
 U 1 1 5A48C001
 P 8000 3450
 F 0 "C11" H 8025 3550 50  0000 L CNN
@@ -771,7 +823,7 @@ F 3 "" H 8000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 3600 7750 3600
+	7600 3600 8000 3600
 Connection ~ 7750 3600
 Text GLabel 7600 3600 0    60   Input ~ 0
 GND
@@ -789,7 +841,7 @@ Connection ~ 7750 1900
 Connection ~ 7750 3300
 Connection ~ 8000 3300
 $Comp
-L custom:SN74HC595 U3
+L SN74HC595 U3
 U 1 1 5A486ACA
 P 7750 5500
 F 0 "U3" H 7900 6100 50  0000 C CNN
@@ -804,7 +856,7 @@ Text GLabel 7450 4950 1    60   Input ~ 0
 Text GLabel 7450 6050 3    60   Input ~ 0
 GND
 $Comp
-L custom:TB6612FNG U5
+L TB6612FNG U5
 U 1 1 5A48BFD6
 P 9350 4150
 F 0 "U5" H 8900 5100 50  0000 C CNN
@@ -824,80 +876,4 @@ Wire Wire Line
 	10000 3400 10000 3300
 Wire Wire Line
 	8650 3300 8650 3400
-Wire Wire Line
-	1800 5850 1950 5850
-Wire Wire Line
-	1800 5550 1900 5550
-Wire Wire Line
-	1500 5550 1800 5550
-Wire Wire Line
-	1500 5850 1800 5850
-Wire Wire Line
-	2200 6150 2850 6150
-Wire Wire Line
-	2850 6150 3200 6150
-Wire Wire Line
-	2850 5550 3250 5550
-Wire Wire Line
-	6500 3200 6700 3200
-Wire Wire Line
-	6500 2900 6700 2900
-Wire Wire Line
-	3250 4700 3350 4700
-Wire Wire Line
-	3250 2400 3350 2400
-Wire Wire Line
-	3250 4600 3250 4700
-Wire Wire Line
-	1350 5550 1500 5550
-Wire Wire Line
-	1200 5650 1350 5650
-Wire Wire Line
-	1200 5550 1350 5550
-Wire Wire Line
-	5900 3750 6700 3750
-Wire Wire Line
-	6100 3300 6450 3300
-Wire Wire Line
-	6100 3650 6700 3650
-Wire Wire Line
-	1050 5550 1200 5550
-Wire Wire Line
-	6450 4000 6550 4000
-Wire Wire Line
-	7000 5250 7050 5250
-Wire Wire Line
-	8200 1900 8650 1900
-Wire Wire Line
-	7750 2200 8000 2200
-Wire Wire Line
-	8200 3300 8650 3300
-Wire Wire Line
-	7750 3600 8000 3600
-Wire Wire Line
-	8000 1900 8200 1900
-Wire Wire Line
-	7750 1900 8000 1900
-Wire Wire Line
-	7750 3300 8000 3300
-Wire Wire Line
-	8000 3300 8200 3300
-Wire Wire Line
-	6950 2900 6950 3200
-Wire Wire Line
-	2500 5550 2850 5550
-Wire Wire Line
-	1000 5650 1200 5650
-$Sheet
-S 9400 5150 1450 1200
-U 5E87C6BA
-F0 "IRCam" 50
-F1 "ir_cam.sch" 50
-$EndSheet
-Wire Wire Line
-	5850 4400 5850 4550
-Text GLabel 5850 4550 2    60   Input ~ 0
-Tx
-Text GLabel 5850 4100 2    60   Input ~ 0
-Rx
 $EndSCHEMATC

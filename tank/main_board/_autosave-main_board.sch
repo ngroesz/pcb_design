@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -415,9 +415,9 @@ Wire Wire Line
 Text GLabel 3200 6150 2    60   Input ~ 0
 GND
 Text GLabel 1200 5300 2    60   Input ~ 0
-5V
+9V
 Text GLabel 750  5550 0    60   Input ~ 0
-5V
+9V
 Text GLabel 750  5650 0    60   Input ~ 0
 GND
 Text GLabel 2400 4250 2    60   Input ~ 0
@@ -888,12 +888,6 @@ Wire Wire Line
 	2500 5550 2850 5550
 Wire Wire Line
 	1000 5650 1200 5650
-$Sheet
-S 9400 5150 1450 1200
-U 5E87C6BA
-F0 "IRCam" 50
-F1 "ir_cam.sch" 50
-$EndSheet
 Wire Wire Line
 	5850 4400 5850 4550
 Text GLabel 5850 4550 2    60   Input ~ 0

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name main_board-rescue)(type Legacy)(uri ${KIPRJMOD}/main_board-rescue.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri /home/nick/Documents/kicad/library/custom.lib)(options "")(descr ""))
+  (lib (name miar_labs)(type Legacy)(uri /home/nick/pcb_design/library/miar_labs.lib)(options "")(descr ""))
+)
