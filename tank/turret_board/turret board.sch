@@ -102,39 +102,17 @@ F 3 "" H 5000 4400 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L miar_labs:R R7
-U 1 1 59D66D74
-P 4150 2550
-F 0 "R7" V 4230 2550 50  0000 C CNN
-F 1 "R" V 4150 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4080 2550 50  0001 C CNN
-F 3 "" H 4150 2550 50  0000 C CNN
-	1    4150 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L miar_labs:R R6
-U 1 1 59D66E03
-P 4250 2550
-F 0 "R6" V 4330 2550 50  0000 C CNN
-F 1 "R" V 4250 2550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4180 2550 50  0001 C CNN
-F 3 "" H 4250 2550 50  0000 C CNN
-	1    4250 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:Crystal_4pin Y1
 U 1 1 59D70B97
-P 3400 2150
-F 0 "Y1" H 3525 2350 50  0000 L CNN
-F 1 "Crystal_4pin" H 3350 1950 50  0000 L CNN
-F 2 "Tank:ECS-100AX" H 3400 2150 50  0001 C CNN
-F 3 "" H 3400 2150 50  0001 C CNN
-	1    3400 2150
+P 3450 4000
+F 0 "Y1" H 3575 4200 50  0000 L CNN
+F 1 "Crystal_4pin" H 3400 3800 50  0000 L CNN
+F 2 "Tank:ECS-100AX" H 3450 4000 50  0001 C CNN
+F 3 "" H 3450 4000 50  0001 C CNN
+	1    3450 4000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3250 2250
+NoConn ~ 3300 4100
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 59EBB90C
@@ -262,36 +240,13 @@ Text GLabel 4800 4450 0    60   Input ~ 12
 5V
 Text GLabel 2550 5950 3    60   Input ~ 12
 GND
-$Comp
-L miar_labs:Conn_01x06 J1
-U 1 1 59ED8021
-P 4500 1950
-F 0 "J1" H 4500 2250 50  0000 C CNN
-F 1 "Conn_01x06" H 4500 1550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4500 1950 50  0001 C CNN
-F 3 "" H 4500 1950 50  0001 C CNN
-	1    4500 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 4300 1750 0    60   Input ~ 12
-3.3V
-Text GLabel 4300 1850 0    60   Input ~ 12
+Text GLabel 3600 4100 2    60   Input ~ 12
 GND
-Text GLabel 4300 1950 0    60   Input ~ 12
-RESET
-Text GLabel 4100 2150 0    60   Input ~ 12
-SDA
-Text GLabel 4100 2250 0    60   Input ~ 12
-SLC
-Text GLabel 3550 2250 2    60   Input ~ 12
-GND
-Text GLabel 3250 2050 0    60   Input ~ 12
+Text GLabel 3300 3900 0    60   Input ~ 12
 3.3V
 Text GLabel 3200 1200 2    60   Input ~ 12
 RESET
 Text GLabel 2700 3050 2    60   Input ~ 12
-3.3V
-Text GLabel 4150 2850 3    60   Input ~ 12
 3.3V
 Text GLabel 2900 750  1    60   Input ~ 12
 3.3V
@@ -301,17 +256,6 @@ Text GLabel 1850 2250 2    60   Input ~ 12
 SLC
 Text GLabel 2700 3450 2    60   Input ~ 12
 GND
-$Comp
-L miar_labs:Conn_01x06 J2
-U 1 1 59EDA984
-P 4100 4000
-F 0 "J2" H 4100 4300 50  0000 C CNN
-F 1 "Conn_01x06" H 4100 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4100 4000 50  0001 C CNN
-F 3 "" H 4100 4000 50  0001 C CNN
-	1    4100 4000
-	-1   0    0    1   
-$EndComp
 NoConn ~ 4700 3100
 $Comp
 L miar_labs:2N3904 Q2
@@ -396,25 +340,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 3950 2150 3850
 Wire Wire Line
-	3550 2050 4300 2050
-Wire Wire Line
-	4100 2150 4150 2150
-Wire Wire Line
-	4100 2250 4250 2250
-Wire Wire Line
-	4150 2150 4150 2400
-Connection ~ 4150 2150
-Wire Wire Line
-	4250 2250 4250 2400
-Connection ~ 4250 2250
-Wire Wire Line
-	4150 2700 4150 2750
-Wire Wire Line
-	4150 2750 4250 2750
-Wire Wire Line
-	4250 2750 4250 2700
-Connection ~ 4150 2750
-Wire Wire Line
 	5500 3000 6050 3000
 Wire Wire Line
 	6050 3000 6050 4200
@@ -436,21 +361,15 @@ Wire Wire Line
 Wire Wire Line
 	4350 3200 4350 3800
 Wire Wire Line
-	4350 3800 4300 3800
-Wire Wire Line
 	5500 3200 5850 3200
 Wire Wire Line
 	5850 3200 5850 3700
-Wire Wire Line
-	5850 3700 4300 3700
 Wire Wire Line
 	4700 3300 4700 4000
 Wire Wire Line
 	4700 4000 4300 4000
 Wire Wire Line
 	5500 3300 5500 3900
-Wire Wire Line
-	5500 3900 4300 3900
 Wire Wire Line
 	1250 3050 1300 3050
 Wire Wire Line
@@ -492,12 +411,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 5200 2550 5300
 Wire Wire Line
-	4150 2150 4300 2150
-Wire Wire Line
-	4250 2250 4300 2250
-Wire Wire Line
-	4150 2750 4150 2850
-Wire Wire Line
 	4450 4100 5950 4100
 Wire Wire Line
 	2450 3450 2700 3450
@@ -515,4 +428,20 @@ Wire Wire Line
 	1300 3150 1400 3150
 Wire Wire Line
 	1450 3050 1550 3050
+Text GLabel 4050 3700 0    60   Input ~ 12
+SLC
+Text GLabel 4050 3800 0    60   Input ~ 12
+SDA
+Text GLabel 4300 4200 0    60   Input ~ 12
+3.3V
+Text GLabel 4300 4100 0    60   Input ~ 12
+GND
+Text GLabel 4300 4000 0    60   Input ~ 12
+RESET
+Wire Wire Line
+	3600 3900 5500 3900
+Wire Wire Line
+	4050 3800 4350 3800
+Wire Wire Line
+	4050 3700 5850 3700
 $EndSCHEMATC

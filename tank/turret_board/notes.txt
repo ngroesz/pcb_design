@@ -1,7 +1,0 @@
-Todo for version 0.4
-- BNJ footprint was wrong
-- 6-pin footprint should be 2.54mm
-- 6-pin footprint was too close to Tx1
-- no vcc to crystal - also, should be regulated power
-- cap in reset line can be removed
-- switch RX to outside of JST
