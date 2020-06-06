@@ -1,3 +1,4 @@
 for version 0.6:
 - LED out should use square contact for postive
 - bump detectors should be connected to single pin
+- regulated power out to turret board

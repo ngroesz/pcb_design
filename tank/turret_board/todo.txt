@@ -1,0 +1,2 @@
+TODO for version 0.6
+- power needs to be regulated to 3.3V
