@@ -406,7 +406,7 @@ Text GLabel 2050 3000 2    60   Input ~ 0
 GND
 Text GLabel 2050 3500 2    60   Input ~ 0
 GND
-Text GLabel 5250 4500 2    60   Input ~ 0
+Text GLabel 5250 2600 2    60   Input ~ 0
 MEnable
 Text GLabel 5250 4400 2    60   Input ~ 0
 LED0
@@ -438,7 +438,7 @@ Text GLabel 3200 4700 0    60   Input ~ 0
 GND
 Text GLabel 3100 2400 0    60   Input ~ 0
 4.5V
-Text GLabel 5250 4200 2    60   Input ~ 0
+Text GLabel 5250 4300 2    60   Input ~ 0
 IRRx
 Text GLabel 5250 3350 2    60   Input ~ 0
 IRTx
@@ -609,11 +609,11 @@ Text GLabel 5500 1600 0    60   Input ~ 0
 LED1
 Text GLabel 5500 1500 0    60   Input ~ 0
 LED2
-Text GLabel 5250 2500 2    60   Input ~ 0
+Text GLabel 5250 4500 2    60   Input ~ 0
 M0PWM
 Text GLabel 8650 2900 0    60   Input ~ 0
 M0PWM
-Text GLabel 5250 2600 2    60   Input ~ 0
+Text GLabel 5250 4600 2    60   Input ~ 0
 M1PWM
 Text GLabel 8650 2100 0    60   Input ~ 0
 M1PWM
@@ -627,7 +627,7 @@ Text GLabel 5250 2900 2    60   Input ~ 0
 SRCLR
 Text GLabel 5250 3250 2    60   Input ~ 0
 LED2
-Text GLabel 5250 4600 2    60   Input ~ 0
+Text GLabel 5250 2700 2    60   Input ~ 0
 Encoder1
 Text GLabel 8450 5450 2    60   Input ~ 0
 M2+
@@ -916,11 +916,11 @@ F 3 "" H 10800 2650 50  0001 C CNN
 	1    10800 2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 5250 2700 2    60   Input ~ 0
+Text GLabel 5250 2500 2    60   Input ~ 0
 M2PWM
 Text GLabel 8650 4300 0    60   Input ~ 0
 M2PWM
-Text GLabel 5250 4300 2    60   Input ~ 0
+Text GLabel 5250 4200 2    60   Input ~ 0
 TurretEncoder
 $Comp
 L main_board-rescue:Conn_01x03_Male J9
