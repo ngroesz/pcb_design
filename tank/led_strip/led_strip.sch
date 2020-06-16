@@ -55,7 +55,7 @@ F 1 "LED" H 4843 3176 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4850 3050 50  0001 C CNN
 F 3 "~" H 4850 3050 50  0001 C CNN
 	1    4850 3050
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D2
@@ -66,7 +66,7 @@ F 1 "LED" H 4843 3276 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4850 3150 50  0001 C CNN
 F 3 "~" H 4850 3150 50  0001 C CNN
 	1    4850 3150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED D3
@@ -77,7 +77,7 @@ F 1 "LED" H 4843 3376 50  0000 C CNN
 F 2 "LED_THT:LED_D5.0mm" H 4850 3250 50  0001 C CNN
 F 3 "~" H 4850 3250 50  0001 C CNN
 	1    4850 3250
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5100 3250 5100 3150
