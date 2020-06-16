@@ -17,7 +17,7 @@
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -1209,7 +1209,7 @@
   )
 
   (gr_line (start 227.33 126.365) (end 227.33 93.98) (layer Edge.Cuts) (width 0.1))
-  (gr_text "Turret Board v0.4\nLaser Tag Robot Tank\nM.I.A.R. Labs\nnick.groesz@gmail.com" (at 210.185 104.14) (layer B.SilkS)
+  (gr_text "Turret Board v0.5\nLaser Tag Robot Tank\nM.I.A.R. Labs\nnick.groesz@gmail.com" (at 210.185 104.14) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 227.33 93.98) (end 184.15 93.98) (angle 90) (layer Edge.Cuts) (width 0.1))

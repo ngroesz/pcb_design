@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L miar_labs:CP C1
-U 1 1 59C1A5FB
-P 1550 3200
-F 0 "C1" H 1575 3300 50  0000 L CNN
-F 1 "CP" H 1575 3100 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1588 3050 50  0001 C CNN
-F 3 "" H 1550 3200 50  0001 C CNN
-	1    1550 3200
-	-1   0    0    -1  
-$EndComp
-$Comp
 L custom:pixart_ir U2
 U 1 1 59D5E048
 P 5150 3600
@@ -67,28 +56,6 @@ F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 1650 2100 50  0001 C CNN
 F 3 "" H 1650 2100 50  0000 C CNN
 	1    1650 2100
 	-1   0    0    1   
-$EndComp
-$Comp
-L miar_labs:CONN_01X02 Beacon1
-U 1 1 59D648C7
-P 5000 4850
-F 0 "Beacon1" H 5000 5000 50  0000 C CNN
-F 1 "CONN_01X02" V 5100 4850 50  0000 C CNN
-F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 5000 4850 50  0001 C CNN
-F 3 "" H 5000 4850 50  0000 C CNN
-	1    5000 4850
-	1    0    0    1   
-$EndComp
-$Comp
-L miar_labs:CONN_01X03 Rx1
-U 1 1 59D6497D
-P 5000 5350
-F 0 "Rx1" H 5000 5550 50  0000 C CNN
-F 1 "CONN_01X03" V 5100 5350 50  0000 C CNN
-F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 5000 5350 50  0001 C CNN
-F 3 "" H 5000 5350 50  0000 C CNN
-	1    5000 5350
-	1    0    0    -1  
 $EndComp
 $Comp
 L miar_labs:CONN_01X02 Tx1
@@ -135,14 +102,8 @@ F 3 "" H 1300 3050 50  0001 C CNN
 	1    1300 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 4800 0    60   Input ~ 0
-GND
 Text GLabel 4800 4350 0    60   Input ~ 0
 IRTx
-Text GLabel 4800 5250 0    60   Input ~ 0
-5V
-Text GLabel 4800 5350 0    60   Input ~ 0
-GND
 Text GLabel 1100 5400 0    60   Input ~ 0
 IRSig
 Text GLabel 1850 2050 2    60   Input ~ 0
@@ -196,8 +157,6 @@ $EndComp
 Text GLabel 2550 4750 1    60   Input ~ 0
 5V
 Text GLabel 2900 5200 2    60   Input ~ 0
-Beacon
-Text GLabel 4800 4900 0    60   Input ~ 0
 Beacon
 $Comp
 L miar_labs:D D3
@@ -388,22 +347,12 @@ Wire Wire Line
 Connection ~ 1550 3450
 Connection ~ 2450 3050
 Connection ~ 2000 3450
-Connection ~ 1550 3050
 Wire Wire Line
 	1200 4650 1200 5400
-Text GLabel 4800 5450 0    60   Input ~ 0
-IRRx
 Text GLabel 1850 1950 2    60   Input ~ 0
 IRRx
 Connection ~ 1300 3050
 Connection ~ 1300 3150
-Wire Wire Line
-	1450 3050 1450 2650
-Wire Wire Line
-	1450 2650 1650 2650
-Connection ~ 1450 3050
-Text GLabel 1650 2650 2    60   Input ~ 0
-5V
 Wire Wire Line
 	1200 5400 1200 5500
 Wire Wire Line
@@ -421,13 +370,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 3450 2450 3450
 Wire Wire Line
-	1550 3050 1700 3050
-Wire Wire Line
-	1300 3050 1450 3050
-Wire Wire Line
 	1300 3150 1400 3150
-Wire Wire Line
-	1450 3050 1550 3050
 Text GLabel 4050 3700 0    60   Input ~ 12
 SLC
 Text GLabel 4050 3800 0    60   Input ~ 12
@@ -444,4 +387,56 @@ Wire Wire Line
 	4050 3800 4350 3800
 Wire Wire Line
 	4050 3700 5850 3700
+Text GLabel 4800 4900 0    60   Input ~ 0
+Beacon
+Text GLabel 4800 4800 0    60   Input ~ 0
+GND
+$Comp
+L miar_labs:CONN_01X02 Beacon1
+U 1 1 59D648C7
+P 5000 4850
+F 0 "Beacon1" H 5000 5000 50  0000 C CNN
+F 1 "CONN_01X02" V 5100 4850 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 5000 4850 50  0001 C CNN
+F 3 "" H 5000 4850 50  0000 C CNN
+	1    5000 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L miar_labs:CONN_01X02 P1
+U 1 1 5EE440E3
+P 1650 1600
+F 0 "P1" H 1567 1325 50  0000 C CNN
+F 1 "CONN_01X02" H 1567 1416 50  0000 C CNN
+F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 1650 1600 50  0001 C CNN
+F 3 "" H 1650 1600 50  0000 C CNN
+	1    1650 1600
+	-1   0    0    1   
+$EndComp
+Text GLabel 1850 1550 2    50   Input ~ 0
+5V
+Text GLabel 1850 1650 2    50   Input ~ 0
+GND
+Text GLabel 1050 3050 0    50   Input ~ 0
+5V
+Text GLabel 1050 3150 0    50   Input ~ 0
+GND
+$Comp
+L Device:C_Small C1
+U 1 1 5EE472A7
+P 1550 3250
+F 0 "C1" H 1642 3296 50  0000 L CNN
+F 1 "C_Small" H 1642 3205 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1550 3250 50  0001 C CNN
+F 3 "~" H 1550 3250 50  0001 C CNN
+	1    1550 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3150 1550 3050
+Connection ~ 1550 3050
+Wire Wire Line
+	1550 3050 1700 3050
+Wire Wire Line
+	1300 3050 1550 3050
 $EndSCHEMATC
