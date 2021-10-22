@@ -1,2 +1,4 @@
 for version 0.8:
++ fix polarized capacitor on reset line
++ unify encoder input names
 - more space between motor controllers and JST connectors
