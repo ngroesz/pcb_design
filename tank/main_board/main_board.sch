@@ -41,7 +41,7 @@ U 1 1 59DD953D
 P 1800 5700
 F 0 "C2" H 1825 5800 50  0000 L CNN
 F 1 "C2" H 1825 5600 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1838 5550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 1838 5550 50  0001 C CNN
 F 3 "" H 1800 5700 50  0001 C CNN
 	1    1800 5700
 	1    0    0    -1  
@@ -58,10 +58,10 @@ F 3 "" H 2850 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R6
+L main_board-rescue:R R3
 U 1 1 59DD999D
 P 6100 3450
-F 0 "R6" V 6180 3450 50  0000 C CNN
+F 0 "R3" V 6180 3450 50  0000 C CNN
 F 1 "R6" V 6100 3450 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3450 50  0001 C CNN
 F 3 "" H 6100 3450 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "" H 6100 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:R R7
+L main_board-rescue:R R2
 U 1 1 59DD9A0D
 P 5900 3450
-F 0 "R7" V 5980 3450 50  0000 C CNN
+F 0 "R2" V 5980 3450 50  0000 C CNN
 F 1 "R7" V 5900 3450 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5830 3450 50  0001 C CNN
 F 3 "" H 5900 3450 50  0001 C CNN
@@ -92,31 +92,20 @@ F 3 "" H 6500 3050 50  0001 C CNN
 $EndComp
 $Comp
 L main_board-rescue:C_Small C6
-U 1 1 59DDA0E5
-P 6800 3200
-F 0 "C6" H 6810 3270 50  0000 L CNN
-F 1 "C6" H 6810 3120 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6800 3200 50  0001 C CNN
-F 3 "" H 6800 3200 50  0001 C CNN
-	1    6800 3200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L main_board-rescue:C_Small C5
 U 1 1 59DDA143
 P 6800 2900
-F 0 "C5" H 6810 2970 50  0000 L CNN
-F 1 "C5" H 6810 2820 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6800 2900 50  0001 C CNN
+F 0 "C6" H 6810 2970 50  0000 L CNN
+F 1 "C6" H 6810 2820 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6800 2900 50  0001 C CNN
 F 3 "" H 6800 2900 50  0001 C CNN
 	1    6800 2900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x04_Male J12
+L main_board-rescue:Conn_01x04_Male J11
 U 1 1 59DDA6A6
 P 3350 1050
-F 0 "J12" H 3350 1250 50  0000 C CNN
+F 0 "J11" H 3350 1250 50  0000 C CNN
 F 1 "SigOut" H 3350 750 50  0000 C CNN
 F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 3350 1050 50  0001 C CNN
 F 3 "" H 3350 1050 50  0001 C CNN
@@ -135,10 +124,10 @@ F 3 "" H 3250 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R10
+L main_board-rescue:R R4
 U 1 1 59DDB114
 P 6450 3850
-F 0 "R10" V 6530 3850 50  0000 C CNN
+F 0 "R4" V 6530 3850 50  0000 C CNN
 F 1 "R10" V 6450 3850 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6380 3850 50  0001 C CNN
 F 3 "" H 6450 3850 50  0001 C CNN
@@ -146,10 +135,10 @@ F 3 "" H 6450 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J8
+L main_board-rescue:Conn_01x03_Male J5
 U 1 1 59DDB019
 P 1850 1900
-F 0 "J8" H 1850 2100 50  0000 C CNN
+F 0 "J5" H 1850 2100 50  0000 C CNN
 F 1 "Encoder2" H 1850 1700 50  0000 C CNN
 F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 1900 50  0001 C CNN
 F 3 "" H 1850 1900 50  0001 C CNN
@@ -157,10 +146,10 @@ F 3 "" H 1850 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J7
+L main_board-rescue:Conn_01x03_Male J6
 U 1 1 59DDB307
 P 1850 2250
-F 0 "J7" H 1850 2450 50  0000 C CNN
+F 0 "J6" H 1850 2450 50  0000 C CNN
 F 1 "Encoder3" H 1850 2050 50  0000 C CNN
 F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 2250 50  0001 C CNN
 F 3 "" H 1850 2250 50  0001 C CNN
@@ -168,10 +157,10 @@ F 3 "" H 1850 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x06_Male J11
+L main_board-rescue:Conn_01x06_Male J9
 U 1 1 59DDE3ED
 P 2200 4450
-F 0 "J11" H 2200 4750 50  0000 C CNN
+F 0 "J9" H 2200 4750 50  0000 C CNN
 F 1 "Programming Header" H 2200 4050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 2200 4450 50  0001 C CNN
 F 3 "" H 2200 4450 50  0001 C CNN
@@ -179,21 +168,21 @@ F 3 "" H 2200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02_Male J10
+L main_board-rescue:Conn_01x02_Male J8
 U 1 1 59DE3178
 P 1850 3500
-F 0 "J10" H 1850 3700 50  0000 C CNN
+F 0 "J8" H 1850 3700 50  0000 C CNN
 F 1 "Bump1" H 1850 3300 50  0000 C CNN
-F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 3500 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 1850 3500 50  0001 C CNN
 F 3 "" H 1850 3500 50  0001 C CNN
 	1    1850 3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02_Male J6
+L main_board-rescue:Conn_01x02_Male J12
 U 1 1 59E3B885
 P 5300 750
-F 0 "J6" H 5300 850 50  0000 C CNN
+F 0 "J12" H 5300 850 50  0000 C CNN
 F 1 "Spk" H 5300 550 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 5300 750 50  0001 C CNN
 F 3 "" H 5300 750 50  0001 C CNN
@@ -212,10 +201,10 @@ F 3 "" H 4700 1100 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:R R11
+L main_board-rescue:R R1
 U 1 1 59E3C8BC
 P 4350 1100
-F 0 "R11" V 4430 1100 50  0000 C CNN
+F 0 "R1" V 4430 1100 50  0000 C CNN
 F 1 "R11" V 4350 1100 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4280 1100 50  0001 C CNN
 F 3 "" H 4350 1100 50  0001 C CNN
@@ -224,10 +213,10 @@ F 3 "" H 4350 1100 50  0001 C CNN
 $EndComp
 NoConn ~ 3350 3000
 $Comp
-L main_board-rescue:Conn_01x02_Male J16
+L main_board-rescue:Conn_01x02_Male J1
 U 1 1 59E562FD
 P 700 4450
-F 0 "J16" H 700 4550 50  0000 C CNN
+F 0 "J1" H 700 4550 50  0000 C CNN
 F 1 "PowerOut" H 700 4250 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 700 4450 50  0001 C CNN
 F 3 "" H 700 4450 50  0001 C CNN
@@ -235,10 +224,10 @@ F 3 "" H 700 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L power:PWR_FLAG #FLG02
 U 1 1 59E6BC0C
 P 1350 5550
-F 0 "#FLG01" H 1350 5625 50  0001 C CNN
+F 0 "#FLG02" H 1350 5625 50  0001 C CNN
 F 1 "PWR_FLAG" H 1350 5700 50  0000 C CNN
 F 2 "" H 1350 5550 50  0001 C CNN
 F 3 "" H 1350 5550 50  0001 C CNN
@@ -246,10 +235,10 @@ F 3 "" H 1350 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG01
 U 1 1 59E6BD3A
 P 1200 5650
-F 0 "#FLG02" H 1200 5725 50  0001 C CNN
+F 0 "#FLG01" H 1200 5725 50  0001 C CNN
 F 1 "PWR_FLAG" H 1200 5800 50  0000 C CNN
 F 2 "" H 1200 5650 50  0001 C CNN
 F 3 "" H 1200 5650 50  0001 C CNN
@@ -258,10 +247,10 @@ F 3 "" H 1200 5650 50  0001 C CNN
 $EndComp
 NoConn ~ 2400 4350
 $Comp
-L main_board-rescue:Conn_01x02_Male J1
+L main_board-rescue:Conn_01x02_Male J2
 U 1 1 5A02F09E
 P 750 5550
-F 0 "J1" H 750 5650 50  0000 C CNN
+F 0 "J2" H 750 5650 50  0000 C CNN
 F 1 "PowerIn" H 750 5350 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 750 5550 50  0001 C CNN
 F 3 "" H 750 5550 50  0001 C CNN
@@ -303,8 +292,6 @@ Connection ~ 6500 3200
 Connection ~ 6500 2900
 Wire Wire Line
 	6900 2900 6950 2900
-Wire Wire Line
-	6950 3200 6900 3200
 Wire Wire Line
 	3350 4600 3250 4600
 Connection ~ 3250 4700
@@ -377,14 +364,6 @@ Text GLabel 2400 4550 2    60   Input ~ 0
 Rx
 Text GLabel 2400 4650 2    60   Input ~ 0
 Tx
-Text GLabel 2050 2150 2    60   Input ~ 0
-4.5V
-Text GLabel 2050 2250 2    60   Input ~ 0
-GND
-Text GLabel 2050 1800 2    60   Input ~ 0
-4.5V
-Text GLabel 2050 1900 2    60   Input ~ 0
-GND
 Text GLabel 2050 3000 2    60   Input ~ 0
 GND
 Text GLabel 2050 3500 2    60   Input ~ 0
@@ -433,7 +412,7 @@ IRTx
 Text GLabel 3150 850  0    60   Input ~ 0
 IRRx
 Text GLabel 5100 750  0    60   Input ~ 0
-9V
+4.5V
 $Comp
 L main_board-rescue:L7805 U1
 U 1 1 5A47F96E
@@ -547,7 +526,7 @@ U 1 1 5A488C5C
 P 7750 2050
 F 0 "C8" H 7775 2150 50  0000 L CNN
 F 1 "C" H 7775 1950 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 1900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 1900 50  0001 C CNN
 F 3 "" H 7750 2050 50  0001 C CNN
 	1    7750 2050
 	1    0    0    -1  
@@ -580,10 +559,6 @@ Wire Wire Line
 	5750 4400 5850 4400
 Text GLabel 5850 4250 2    60   Input ~ 0
 Bump
-Text GLabel 2100 2000 2    60   Input ~ 0
-Encoder2
-Text GLabel 2050 2350 2    60   Input ~ 0
-Encoder3
 Text GLabel 5500 1800 0    60   Input ~ 0
 4.5V
 Text GLabel 5500 1700 0    60   Input ~ 0
@@ -632,8 +607,6 @@ Wire Wire Line
 	10000 4100 10050 4100
 Text GLabel 10150 3500 2    60   Input ~ 0
 GND
-Text GLabel 10050 4100 2    60   Input ~ 0
-GND
 Text GLabel 8650 3900 0    60   Input ~ 0
 MEnable
 Text GLabel 8650 4000 0    60   Input ~ 0
@@ -653,7 +626,7 @@ U 1 1 5A48BFFB
 P 7750 3450
 F 0 "C9" H 7775 3550 50  0000 L CNN
 F 1 "C" H 7775 3350 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 3300 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 7788 3300 50  0001 C CNN
 F 3 "" H 7750 3450 50  0001 C CNN
 	1    7750 3450
 	1    0    0    -1  
@@ -677,10 +650,6 @@ Gm
 NoConn ~ 8650 3500
 NoConn ~ 8650 3600
 NoConn ~ 8650 3700
-NoConn ~ 10000 4300
-NoConn ~ 10000 4400
-NoConn ~ 10000 4000
-NoConn ~ 10000 3900
 Connection ~ 8000 1900
 Connection ~ 7750 1900
 Connection ~ 7750 3300
@@ -735,8 +704,6 @@ Wire Wire Line
 	2850 6150 3200 6150
 Wire Wire Line
 	2850 5550 3250 5550
-Wire Wire Line
-	6500 3200 6700 3200
 Wire Wire Line
 	6500 2900 6700 2900
 Wire Wire Line
@@ -800,10 +767,10 @@ Vm
 Text GLabel 2950 6950 0    50   Input ~ 0
 Gm
 $Comp
-L main_board-rescue:Conn_01x02_Male J20
+L main_board-rescue:Conn_01x02_Male J10
 U 1 1 5E9AA91A
 P 2950 6850
-F 0 "J20" H 2950 6950 50  0000 C CNN
+F 0 "J10" H 2950 6950 50  0000 C CNN
 F 1 "PowerMotor" H 2950 6650 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 2950 6850 50  0001 C CNN
 F 3 "" H 2950 6850 50  0001 C CNN
@@ -833,10 +800,10 @@ Wire Wire Line
 Wire Wire Line
 	7750 3800 7750 3600
 $Comp
-L main_board-rescue:Conn_01x03_Male J13
+L main_board-rescue:Conn_01x03_Male J3
 U 1 1 5E9F4FF5
 P 1850 1100
-F 0 "J13" H 1958 1381 50  0000 C CNN
+F 0 "J3" H 1958 1381 50  0000 C CNN
 F 1 "Encoder0" H 1958 1290 50  0000 C CNN
 F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 1100 50  0001 C CNN
 F 3 "" H 1850 1100 50  0001 C CNN
@@ -844,33 +811,27 @@ F 3 "" H 1850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x03_Male J14
+L main_board-rescue:Conn_01x03_Male J4
 U 1 1 5EA0741C
 P 1850 1550
-F 0 "J14" H 1958 1831 50  0000 C CNN
+F 0 "J4" H 1958 1831 50  0000 C CNN
 F 1 "Encoder1" H 1958 1740 50  0000 C CNN
 F 2 "JST:JST_EH_B03B-EH-A_03x2.50mm_Straight" H 1850 1550 50  0001 C CNN
 F 3 "" H 1850 1550 50  0001 C CNN
 	1    1850 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 1000 2    60   Input ~ 0
-4.5V
-Text GLabel 2050 1450 2    60   Input ~ 0
-4.5V
 Text GLabel 2050 1100 2    60   Input ~ 0
-GND
-Text GLabel 2050 1550 2    60   Input ~ 0
-GND
+4.5V
 Text GLabel 2050 1200 2    60   Input ~ 0
+GND
+Text GLabel 2050 1000 2    60   Input ~ 0
 Encoder0
-Text GLabel 2050 1650 2    60   Input ~ 0
-Encoder1
 $Comp
-L main_board-rescue:Conn_01x04_Male J4
+L main_board-rescue:Conn_01x04_Male J13
 U 1 1 5EA682FF
 P 5700 1700
-F 0 "J4" H 5700 1900 50  0000 C CNN
+F 0 "J13" H 5700 1900 50  0000 C CNN
 F 1 "LEDs" H 5700 1400 50  0000 C CNN
 F 2 "JST:JST_EH_B04B-EH-A_04x2.50mm_Straight" H 5700 1700 50  0001 C CNN
 F 3 "" H 5700 1700 50  0001 C CNN
@@ -878,10 +839,10 @@ F 3 "" H 5700 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02_Male J2
+L main_board-rescue:Conn_01x02_Male J14
 U 1 1 5E9835C0
 P 10750 2050
-F 0 "J2" H 10750 2150 50  0000 C CNN
+F 0 "J14" H 10750 2150 50  0000 C CNN
 F 1 "M1" H 10750 1850 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 10750 2050 50  0001 C CNN
 F 3 "" H 10750 2050 50  0001 C CNN
@@ -889,10 +850,10 @@ F 3 "" H 10750 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L main_board-rescue:Conn_01x02_Male J5
+L main_board-rescue:Conn_01x02_Male J16
 U 1 1 5E98A5F8
 P 10800 2650
-F 0 "J5" H 10800 2750 50  0000 C CNN
+F 0 "J16" H 10800 2750 50  0000 C CNN
 F 1 "M0" H 10800 2450 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 10800 2650 50  0001 C CNN
 F 3 "" H 10800 2650 50  0001 C CNN
@@ -906,10 +867,10 @@ M2PWM
 Text GLabel 5250 4200 2    60   Input ~ 0
 Encoder2
 $Comp
-L main_board-rescue:Conn_01x02_Male J9
+L main_board-rescue:Conn_01x02_Male J7
 U 1 1 59DE306D
 P 1850 3000
-F 0 "J9" H 1850 3200 50  0000 C CNN
+F 0 "J7" H 1850 3200 50  0000 C CNN
 F 1 "Bump0" H 1850 2800 50  0000 C CNN
 F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 1850 3000 50  0001 C CNN
 F 3 "" H 1850 3000 50  0001 C CNN
@@ -932,10 +893,10 @@ Wire Wire Line
 Text GLabel 5850 4400 2    50   Input ~ 0
 Encoder3
 $Comp
-L main_board-rescue:Conn_01x02_Male J3
+L main_board-rescue:Conn_01x02_Male J15
 U 1 1 5E98F9A1
 P 10750 3450
-F 0 "J3" H 10750 3550 50  0000 C CNN
+F 0 "J15" H 10750 3550 50  0000 C CNN
 F 1 "M2" H 10750 3250 50  0000 C CNN
 F 2 "JST:JST_EH_B02B-EH-A_02x2.50mm_Straight" H 10750 3450 50  0001 C CNN
 F 3 "" H 10750 3450 50  0001 C CNN
@@ -971,18 +932,6 @@ Wire Wire Line
 Wire Wire Line
 	10400 3450 10550 3450
 Wire Wire Line
-	10000 4000 10100 4000
-Wire Wire Line
-	10100 4000 10100 3900
-Wire Wire Line
-	10100 3900 10000 3900
-Wire Wire Line
-	10000 4300 10100 4300
-Wire Wire Line
-	10100 4300 10100 4400
-Wire Wire Line
-	10100 4400 10000 4400
-Wire Wire Line
 	950  5550 1200 5550
 Wire Wire Line
 	1700 4450 1700 5300
@@ -996,16 +945,55 @@ Connection ~ 2650 5550
 Wire Wire Line
 	2650 5550 2850 5550
 $Comp
-L Device:C_Small C7
+L Device:C_Small C5
 U 1 1 61727AF7
 P 6550 4100
-F 0 "C7" H 6642 4146 50  0000 L CNN
+F 0 "C5" H 6642 4146 50  0000 L CNN
 F 1 "C_Small" H 6642 4055 50  0000 L CNN
-F 2 "" H 6550 4100 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6550 4100 50  0001 C CNN
 F 3 "~" H 6550 4100 50  0001 C CNN
 	1    6550 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6550 4200 6550 4950
+Text GLabel 2050 1550 2    60   Input ~ 0
+4.5V
+Text GLabel 2050 1650 2    60   Input ~ 0
+GND
+Text GLabel 2050 1450 2    60   Input ~ 0
+Encoder1
+Text GLabel 2050 1900 2    60   Input ~ 0
+4.5V
+Text GLabel 2050 2000 2    60   Input ~ 0
+GND
+Text GLabel 2050 1800 2    60   Input ~ 0
+Encoder2
+Text GLabel 2050 2250 2    60   Input ~ 0
+4.5V
+Text GLabel 2050 2350 2    60   Input ~ 0
+GND
+Text GLabel 2050 2150 2    60   Input ~ 0
+Encoder3
+Text GLabel 10050 4100 2    60   Input ~ 0
+GND
+Wire Wire Line
+	10000 4400 10000 4300
+Wire Wire Line
+	10000 3900 10000 4000
+$Comp
+L main_board-rescue:C_Small C7
+U 1 1 617CEC50
+P 6800 3200
+F 0 "C7" H 6810 3270 50  0000 L CNN
+F 1 "C7" H 6810 3120 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3200 6700 3200
+Wire Wire Line
+	6950 3200 6900 3200
 $EndSCHEMATC
