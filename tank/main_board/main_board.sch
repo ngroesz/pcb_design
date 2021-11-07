@@ -605,8 +605,6 @@ Wire Wire Line
 	10000 3500 10150 3500
 Wire Wire Line
 	10000 4100 10050 4100
-Text GLabel 10150 3500 2    60   Input ~ 0
-GND
 Text GLabel 8650 3900 0    60   Input ~ 0
 MEnable
 Text GLabel 8650 4000 0    60   Input ~ 0
@@ -975,8 +973,6 @@ Text GLabel 2050 2350 2    60   Input ~ 0
 GND
 Text GLabel 2050 2150 2    60   Input ~ 0
 Encoder3
-Text GLabel 10050 4100 2    60   Input ~ 0
-GND
 Wire Wire Line
 	10000 4400 10000 4300
 Wire Wire Line
@@ -996,4 +992,8 @@ Wire Wire Line
 	6500 3200 6700 3200
 Wire Wire Line
 	6950 3200 6900 3200
+Text GLabel 10150 3500 2    60   Input ~ 0
+GND
+Text GLabel 10050 4100 2    60   Input ~ 0
+GND
 $EndSCHEMATC

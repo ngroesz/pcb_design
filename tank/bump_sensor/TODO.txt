@@ -1,0 +1,2 @@
+for version .03:
+    - mount holes to 2.5mm diameter
