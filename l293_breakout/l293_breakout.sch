@@ -1,0 +1,422 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L l293_breakout-rescue:Conn_01x02_Male-main_board-rescue J14
+U 1 1 61AD1B94
+P 5950 2950
+F 0 "J14" H 5950 3050 50  0000 C CNN
+F 1 "M0" H 5950 2750 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 5950 2950 50  0001 C CNN
+F 3 "" H 5950 2950 50  0001 C CNN
+	1    5950 2950
+	-1   0    0    1   
+$EndComp
+NoConn ~ 10075 -325
+$Comp
+L Connector:Conn_01x02_Male Vm1
+U 1 1 61C67A1E
+P 2500 1400
+F 0 "Vm1" H 2608 1581 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2608 1490 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2500 1400 50  0001 C CNN
+F 3 "~" H 2500 1400 50  0001 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male Vl1
+U 1 1 61C680C7
+P 2500 1900
+F 0 "Vl1" H 2608 2081 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2608 1990 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male M0
+U 1 1 61C68D97
+P 2750 2850
+F 0 "M0" H 2858 3131 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2858 3040 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 2750 2850 50  0001 C CNN
+F 3 "~" H 2750 2850 50  0001 C CNN
+	1    2750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 61C692AB
+P 2725 3650
+F 0 "J1" H 2833 3931 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2833 3840 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 2725 3650 50  0001 C CNN
+F 3 "~" H 2725 3650 50  0001 C CNN
+	1    2725 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 2750 4000 2750
+Wire Wire Line
+	4000 2750 4000 2850
+Wire Wire Line
+	2950 2850 3875 2850
+Wire Wire Line
+	3875 2850 3875 3050
+Wire Wire Line
+	3875 3050 4000 3050
+Wire Wire Line
+	2950 2950 3800 2950
+Wire Wire Line
+	3800 2950 3800 3250
+Wire Wire Line
+	3800 3250 4000 3250
+Wire Wire Line
+	2925 3550 3750 3550
+Wire Wire Line
+	3750 3550 3750 3450
+Wire Wire Line
+	3750 3450 4000 3450
+Wire Wire Line
+	2925 3650 4000 3650
+Wire Wire Line
+	2925 3750 4000 3750
+Wire Wire Line
+	4000 3750 4000 3850
+Connection ~ 4600 4250
+$Comp
+L Driver_Motor:L293D U4
+U 1 1 61A74B1D
+P 4500 3450
+F 0 "U4" H 4500 4631 50  0000 C CNN
+F 1 "L293D" H 4500 4540 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 4750 2700 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/l293.pdf" H 4200 4150 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2850 5750 2850
+$Comp
+L pspice:DIODE D1
+U 1 1 61C85884
+P 5000 2650
+F 0 "D1" V 5046 2522 50  0000 R CNN
+F 1 "DIODE" V 4955 2522 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5000 2650 50  0001 C CNN
+F 3 "~" H 5000 2650 50  0001 C CNN
+	1    5000 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D2
+U 1 1 61C86112
+P 5125 3050
+F 0 "D2" H 5125 3315 50  0000 C CNN
+F 1 "DIODE" H 5125 3224 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5125 3050 50  0001 C CNN
+F 3 "~" H 5125 3050 50  0001 C CNN
+	1    5125 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D5
+U 1 1 61C8BA79
+P 5400 2750
+F 0 "D5" V 5446 2622 50  0000 R CNN
+F 1 "DIODE" V 5355 2622 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5400 2750 50  0001 C CNN
+F 3 "~" H 5400 2750 50  0001 C CNN
+	1    5400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D7
+U 1 1 61C8BA7F
+P 5600 3150
+F 0 "D7" H 5600 3415 50  0000 C CNN
+F 1 "DIODE" H 5600 3324 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5600 3150 50  0001 C CNN
+F 3 "~" H 5600 3150 50  0001 C CNN
+	1    5600 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 2850 5125 2850
+Wire Wire Line
+	5625 2850 5625 2825
+Connection ~ 5000 2850
+Connection ~ 5625 2850
+Connection ~ 5125 2850
+Wire Wire Line
+	5125 2850 5625 2850
+Wire Wire Line
+	5000 3050 5000 2950
+Wire Wire Line
+	5000 2950 5400 2950
+Connection ~ 5400 2950
+Wire Wire Line
+	5400 2950 5600 2950
+Connection ~ 5600 2950
+Wire Wire Line
+	5600 2950 5750 2950
+Connection ~ 4600 2450
+Wire Wire Line
+	5125 3250 5125 4250
+Wire Wire Line
+	4600 4250 4700 4250
+Connection ~ 4700 4250
+Wire Wire Line
+	5600 3350 5600 4250
+Wire Wire Line
+	4700 4250 5125 4250
+Connection ~ 5125 4250
+Wire Wire Line
+	5125 4250 5275 4250
+Wire Wire Line
+	4600 2450 5000 2450
+Connection ~ 5000 2450
+Wire Wire Line
+	5000 2450 5250 2450
+Wire Wire Line
+	5400 2450 5400 2550
+$Comp
+L l293_breakout-rescue:Conn_01x02_Male-main_board-rescue J2
+U 1 1 61CA338D
+P 6250 3800
+F 0 "J2" H 6250 3900 50  0000 C CNN
+F 1 "M1" H 6250 3600 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 6250 3800 50  0001 C CNN
+F 3 "" H 6250 3800 50  0001 C CNN
+	1    6250 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5775 3700 5900 3700
+$Comp
+L pspice:DIODE D3
+U 1 1 61CA3394
+P 5150 3500
+F 0 "D3" V 5196 3372 50  0000 R CNN
+F 1 "DIODE" V 5105 3372 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5150 3500 50  0001 C CNN
+F 3 "~" H 5150 3500 50  0001 C CNN
+	1    5150 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D4
+U 1 1 61CA339A
+P 5275 3900
+F 0 "D4" H 5275 4165 50  0000 C CNN
+F 1 "DIODE" H 5275 4074 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5275 3900 50  0001 C CNN
+F 3 "~" H 5275 3900 50  0001 C CNN
+	1    5275 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D6
+U 1 1 61CA33A0
+P 5550 3600
+F 0 "D6" V 5596 3472 50  0000 R CNN
+F 1 "DIODE" V 5505 3472 50  0000 R CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5550 3600 50  0001 C CNN
+F 3 "~" H 5550 3600 50  0001 C CNN
+	1    5550 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pspice:DIODE D8
+U 1 1 61CA33A6
+P 5750 4000
+F 0 "D8" H 5750 4265 50  0000 C CNN
+F 1 "DIODE" H 5750 4174 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 5750 4000 50  0001 C CNN
+F 3 "~" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5775 3700 5775 3675
+Connection ~ 5775 3700
+Connection ~ 5275 3700
+Wire Wire Line
+	5275 3700 5775 3700
+Connection ~ 5550 3800
+Wire Wire Line
+	5550 3800 5750 3800
+Connection ~ 5750 3800
+Wire Wire Line
+	5150 3300 5250 3300
+Wire Wire Line
+	5550 3300 5550 3400
+Wire Wire Line
+	5000 3450 5075 3450
+Wire Wire Line
+	5075 3450 5075 3700
+Wire Wire Line
+	5075 3700 5150 3700
+Connection ~ 5150 3700
+Wire Wire Line
+	5150 3700 5275 3700
+Wire Wire Line
+	5000 3650 5000 3800
+Wire Wire Line
+	5000 3800 5550 3800
+Wire Wire Line
+	5275 4100 5275 4250
+Connection ~ 5275 4250
+Wire Wire Line
+	5750 4200 5750 4250
+Wire Wire Line
+	5275 4250 5600 4250
+Connection ~ 5600 4250
+Wire Wire Line
+	5600 4250 5750 4250
+Wire Wire Line
+	5250 3300 5250 2450
+Connection ~ 5250 3300
+Wire Wire Line
+	5250 3300 5550 3300
+Connection ~ 5250 2450
+Wire Wire Line
+	5250 2450 5400 2450
+Wire Wire Line
+	6300 4250 5750 4250
+Connection ~ 5750 4250
+Wire Wire Line
+	2700 1900 2775 1900
+Wire Wire Line
+	4400 1900 4400 2450
+Wire Wire Line
+	2700 2000 6300 2000
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2000 6300 4250
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61CB84FB
+P 2800 1400
+F 0 "#FLG0101" H 2800 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 1573 50  0000 C CNN
+F 2 "" H 2800 1400 50  0001 C CNN
+F 3 "~" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1400 2700 1400
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61CB8AE0
+P 2775 1900
+F 0 "#FLG0102" H 2775 1975 50  0001 C CNN
+F 1 "PWR_FLAG" H 2775 2073 50  0000 C CNN
+F 2 "" H 2775 1900 50  0001 C CNN
+F 3 "~" H 2775 1900 50  0001 C CNN
+	1    2775 1900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2775 1900
+Wire Wire Line
+	2775 1900 4400 1900
+Wire Wire Line
+	4400 4250 4600 4250
+Wire Wire Line
+	4300 4250 4400 4250
+Connection ~ 4400 4250
+$Comp
+L pspice:C C1
+U 1 1 61CC1C93
+P 3400 1375
+F 0 "C1" H 3578 1421 50  0000 L CNN
+F 1 "C" H 3578 1330 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3400 1375 50  0001 C CNN
+F 3 "~" H 3400 1375 50  0001 C CNN
+	1    3400 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C2
+U 1 1 61CC24E2
+P 3850 1375
+F 0 "C2" H 4028 1421 50  0000 L CNN
+F 1 "C" H 4028 1330 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 3850 1375 50  0001 C CNN
+F 3 "~" H 3850 1375 50  0001 C CNN
+	1    3850 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1500 3200 1625
+Wire Wire Line
+	3200 1625 3400 1625
+Wire Wire Line
+	3400 1625 3850 1625
+Connection ~ 3400 1625
+Wire Wire Line
+	3850 1625 6300 1625
+Connection ~ 3850 1625
+Wire Wire Line
+	6300 1625 6300 2000
+Wire Wire Line
+	3200 1400 3200 1125
+Wire Wire Line
+	3200 1125 3400 1125
+Wire Wire Line
+	4600 1125 4600 2450
+Connection ~ 3400 1125
+Wire Wire Line
+	3400 1125 3850 1125
+Connection ~ 3850 1125
+Wire Wire Line
+	3850 1125 4600 1125
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 1400 3200 1400
+Wire Wire Line
+	2700 1500 2800 1500
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 61CECC7B
+P 2800 1500
+F 0 "#FLG0103" H 2800 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 2800 1673 50  0000 C CNN
+F 2 "" H 2800 1500 50  0001 C CNN
+F 3 "~" H 2800 1500 50  0001 C CNN
+	1    2800 1500
+	-1   0    0    1   
+$EndComp
+Connection ~ 2800 1500
+Wire Wire Line
+	2800 1500 3200 1500
+Wire Wire Line
+	5950 3800 5950 3700
+Wire Wire Line
+	5950 3700 6050 3700
+Wire Wire Line
+	5750 3800 5950 3800
+Wire Wire Line
+	5900 3700 5900 3775
+Wire Wire Line
+	5900 3775 6050 3775
+Wire Wire Line
+	6050 3775 6050 3800
+Text Label 4950 4250 0    50   ~ 0
+GND
+$EndSCHEMATC
