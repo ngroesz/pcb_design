@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name l298n_breakout-rescue)(type Legacy)(uri ${KIPRJMOD}/l298n_breakout-rescue.lib)(options "")(descr ""))
+)

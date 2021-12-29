@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L l293_breakout-rescue:Conn_01x02_Male-main_board-rescue J14
+L l298n_breakout-rescue:Conn_01x02_Male-main_board-rescue J14
 U 1 1 61AD1B94
 P 5950 2950
 F 0 "J14" H 5950 3050 50  0000 C CNN
@@ -124,18 +124,16 @@ Wire Wire Line
 Wire Wire Line
 	5400 2450 5400 2550
 $Comp
-L l293_breakout-rescue:Conn_01x02_Male-main_board-rescue J2
+L l298n_breakout-rescue:Conn_01x02_Male-main_board-rescue J2
 U 1 1 61CA338D
-P 6250 3800
-F 0 "J2" H 6250 3900 50  0000 C CNN
-F 1 "M1" H 6250 3600 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 6250 3800 50  0001 C CNN
-F 3 "" H 6250 3800 50  0001 C CNN
-	1    6250 3800
+P 5950 3800
+F 0 "J2" H 5950 3900 50  0000 C CNN
+F 1 "M1" H 5950 3600 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 5950 3800 50  0001 C CNN
+F 3 "" H 5950 3800 50  0001 C CNN
+	1    5950 3800
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5775 3700 5900 3700
 $Comp
 L pspice:DIODE D3
 U 1 1 61CA3394
@@ -180,29 +178,16 @@ F 3 "~" H 5750 4000 50  0001 C CNN
 	1    5750 4000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5775 3700 5775 3675
-Connection ~ 5775 3700
-Connection ~ 5275 3700
-Wire Wire Line
-	5275 3700 5775 3700
 Connection ~ 5550 3800
 Wire Wire Line
 	5550 3800 5750 3800
-Connection ~ 5750 3800
 Wire Wire Line
 	5150 3300 5250 3300
 Wire Wire Line
 	5550 3300 5550 3400
-Wire Wire Line
-	5075 3450 5075 3700
-Wire Wire Line
-	5075 3700 5150 3700
 Connection ~ 5150 3700
 Wire Wire Line
 	5150 3700 5275 3700
-Wire Wire Line
-	5000 3800 5550 3800
 Wire Wire Line
 	5275 4100 5275 4250
 Connection ~ 5275 4250
@@ -224,8 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 4250 5750 4250
 Connection ~ 5750 4250
-Wire Wire Line
-	2700 2000 6300 2000
 Connection ~ 6300 2000
 Wire Wire Line
 	6300 2000 6300 4250
@@ -285,7 +268,7 @@ Wire Wire Line
 	3400 1125 3850 1125
 Connection ~ 3850 1125
 Wire Wire Line
-	3850 1125 4100 1125
+	3850 1125 4175 1125
 Connection ~ 2800 1400
 Wire Wire Line
 	2800 1400 3200 1400
@@ -305,55 +288,30 @@ $EndComp
 Connection ~ 2800 1500
 Wire Wire Line
 	2800 1500 3200 1500
-Wire Wire Line
-	5950 3800 5950 3700
-Wire Wire Line
-	5950 3700 6050 3700
-Wire Wire Line
-	5750 3800 5950 3800
-Wire Wire Line
-	5900 3700 5900 3775
-Wire Wire Line
-	5900 3775 6050 3775
-Wire Wire Line
-	6050 3775 6050 3800
 Text Label 4950 4250 0    50   ~ 0
 GND
 $Comp
-L Driver_Motor:L293E U1
-U 1 1 61CCC45C
-P 4200 3250
-F 0 "U1" H 4200 2661 50  0000 C CNN
-F 1 "L293E" H 4200 2570 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm" H 5000 2750 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/l293e.pdf" H 3800 2500 50  0001 C CNN
-	1    4200 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x03_Male M0
 U 1 1 61C68D97
-P 1900 2925
-F 0 "M0" H 2008 3206 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 2008 3115 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1900 2925 50  0001 C CNN
-F 3 "~" H 1900 2925 50  0001 C CNN
-	1    1900 2925
+P 2650 2750
+F 0 "M0" H 2758 3031 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2758 2940 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 2650 2750 50  0001 C CNN
+F 3 "~" H 2650 2750 50  0001 C CNN
+	1    2650 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x03_Male J1
 U 1 1 61C692AB
-P 1900 3475
-F 0 "J1" H 2008 3756 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 2008 3665 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1900 3475 50  0001 C CNN
-F 3 "~" H 1900 3475 50  0001 C CNN
-	1    1900 3475
+P 2650 3150
+F 0 "J1" H 2758 3431 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2758 3340 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 2650 3150 50  0001 C CNN
+F 3 "~" H 2650 3150 50  0001 C CNN
+	1    2650 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2100 3575 3175 3575
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 61CB8AE0
@@ -366,120 +324,77 @@ F 3 "~" H 3175 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 2750 4300 1900
-Wire Wire Line
-	2700 1900 3175 1900
-Wire Wire Line
-	3175 1900 4300 1900
-Connection ~ 3175 1900
-Wire Wire Line
-	4200 4250 4950 4250
-Wire Wire Line
-	3600 3050 3450 3050
-Wire Wire Line
-	4825 2850 5000 2850
-Wire Wire Line
 	5000 2850 5125 2850
 Connection ~ 5000 2850
+$Comp
+L Driver_Motor:L298HN U1
+U 1 1 61CCEF60
+P 4075 3150
+F 0 "U1" H 4075 4031 50  0000 C CNN
+F 1 "L298HN" H 4075 3940 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" H 4125 2500 50  0001 L CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf" H 4225 3400 50  0001 C CNN
+	1    4075 3150
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3400 3025 3400 2950
+	2850 2650 3475 2650
 Wire Wire Line
-	3400 2950 3600 2950
+	2850 2750 3475 2750
 Wire Wire Line
-	2100 3025 3400 3025
+	2850 2850 3475 2850
 Wire Wire Line
-	3450 3050 3450 2825
+	2850 3050 3475 3050
 Wire Wire Line
-	2100 2825 3450 2825
+	2850 3150 3475 3150
 Wire Wire Line
-	3325 2925 3325 3550
+	3475 3250 2850 3250
 Wire Wire Line
-	3325 3550 3600 3550
+	4675 2950 4675 2850
 Wire Wire Line
-	2100 2925 3325 2925
+	4675 2850 5000 2850
 Wire Wire Line
-	3575 3150 3600 3150
+	4675 3050 5000 3050
 Wire Wire Line
-	3575 2825 4825 2825
+	4675 3250 4950 3250
 Wire Wire Line
-	4825 2825 4825 2850
+	4950 3250 4950 3700
 Wire Wire Line
-	3575 2825 3575 3150
+	4950 3700 5150 3700
 Wire Wire Line
-	3600 3450 3525 3450
+	4850 3800 4850 3350
 Wire Wire Line
-	3525 3450 3525 2800
+	4850 3350 4675 3350
 Wire Wire Line
-	3525 2800 4900 2800
+	4850 3800 5550 3800
+Connection ~ 5750 3800
 Wire Wire Line
-	4900 2800 4900 3050
+	5275 3700 5750 3700
+Connection ~ 5275 3700
 Wire Wire Line
-	4900 3050 5000 3050
+	4075 4250 4075 3850
 Wire Wire Line
-	4800 3450 5075 3450
+	4075 4250 5125 4250
+Connection ~ 4075 3850
 Wire Wire Line
-	5000 3150 5000 3800
+	3875 3850 4075 3850
+Connection ~ 3875 3850
 Wire Wire Line
-	4800 3150 5000 3150
-Wire Wire Line
-	4800 3550 4850 3550
-Wire Wire Line
-	4850 3550 4850 3700
-Wire Wire Line
-	3450 3700 3450 3375
-Wire Wire Line
-	2100 3375 3450 3375
-Wire Wire Line
-	3450 3700 4850 3700
-Wire Wire Line
-	3425 3475 3425 3725
-Wire Wire Line
-	3425 3725 4900 3725
-Wire Wire Line
-	4900 3725 4900 3075
-Wire Wire Line
-	4900 3075 4800 3075
-Wire Wire Line
-	4800 3075 4800 3050
-Wire Wire Line
-	2100 3475 3425 3475
-Wire Wire Line
-	4800 2950 4875 2950
-Wire Wire Line
-	4875 2950 4875 3850
-Wire Wire Line
-	4875 3850 3175 3850
-Wire Wire Line
-	3175 3850 3175 3575
-Wire Wire Line
-	4200 3750 4200 4125
-Wire Wire Line
-	3600 3250 3550 3250
-Wire Wire Line
-	3550 4125 4200 4125
-Connection ~ 4200 4125
-Wire Wire Line
-	4200 4125 4200 4250
-Wire Wire Line
-	4800 3250 4950 3250
-Wire Wire Line
-	4950 3250 4950 4250
-Connection ~ 4950 4250
-Wire Wire Line
-	4950 4250 5125 4250
-Connection ~ 4800 3250
-Wire Wire Line
-	4800 3250 4800 3350
-Wire Wire Line
-	3550 3250 3550 4125
-Connection ~ 3600 3250
-Wire Wire Line
-	3600 3250 3600 3350
+	3775 3850 3875 3850
 Wire Wire Line
 	3850 1625 6300 1625
 Wire Wire Line
-	4100 2750 4100 1125
-Connection ~ 4100 1125
+	2700 2000 6300 2000
 Wire Wire Line
-	4100 1125 4600 1125
+	4075 1900 4075 2450
+Wire Wire Line
+	2700 1900 3175 1900
+Connection ~ 3175 1900
+Wire Wire Line
+	3175 1900 4075 1900
+Wire Wire Line
+	4175 2450 4175 1125
+Connection ~ 4175 1125
+Wire Wire Line
+	4175 1125 4600 1125
 $EndSCHEMATC
