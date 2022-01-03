@@ -63,7 +63,7 @@ U 1 1 59DD999D
 P 6100 3450
 F 0 "R3" V 6180 3450 50  0000 C CNN
 F 1 "R6" V 6100 3450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6030 3450 50  0001 C CNN
 F 3 "" H 6100 3450 50  0001 C CNN
 	1    6100 3450
 	-1   0    0    1   
@@ -74,7 +74,7 @@ U 1 1 59DD9A0D
 P 5900 3450
 F 0 "R2" V 5980 3450 50  0000 C CNN
 F 1 "R7" V 5900 3450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5830 3450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5830 3450 50  0001 C CNN
 F 3 "" H 5900 3450 50  0001 C CNN
 	1    5900 3450
 	-1   0    0    1   
@@ -129,7 +129,7 @@ U 1 1 59DDB114
 P 6450 3850
 F 0 "R4" V 6530 3850 50  0000 C CNN
 F 1 "R10" V 6450 3850 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6380 3850 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6380 3850 50  0001 C CNN
 F 3 "" H 6450 3850 50  0001 C CNN
 	1    6450 3850
 	-1   0    0    1   
@@ -478,8 +478,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 5850 1800 5850
 Wire Wire Line
-	2200 6150 2450 6150
-Wire Wire Line
 	2850 6150 3200 6150
 Wire Wire Line
 	2850 5550 3250 5550
@@ -519,8 +517,6 @@ Text GLabel 5850 4100 2    60   Input ~ 0
 Rx
 Wire Wire Line
 	3150 6850 3450 6850
-Wire Wire Line
-	3150 6950 3250 6950
 Text GLabel 3450 6850 2    50   Input ~ 0
 Vm
 Text GLabel 2950 6850 0    50   Input ~ 0
@@ -540,18 +536,6 @@ F 3 "" H 2950 6850 50  0001 C CNN
 $EndComp
 Text GLabel 3450 6950 2    50   Input ~ 0
 Gm
-Wire Wire Line
-	2450 6150 2450 7200
-Wire Wire Line
-	2450 7200 3250 7200
-Wire Wire Line
-	3250 7200 3250 6950
-Connection ~ 2450 6150
-Wire Wire Line
-	2450 6150 2850 6150
-Connection ~ 3250 6950
-Wire Wire Line
-	3250 6950 3450 6950
 $Comp
 L main_board-rescue:Conn_01x03_Male J3
 U 1 1 5E9F4FF5
@@ -820,7 +804,7 @@ U 1 1 61CA4DBE
 P 4650 6625
 F 0 "D1" V 4604 6705 50  0000 L CNN
 F 1 "D" V 4695 6705 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 4650 6625 50  0001 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 4650 6625 50  0001 C CNN
 F 3 "~" H 4650 6625 50  0001 C CNN
 	1    4650 6625
 	0    1    1    0   
@@ -880,4 +864,20 @@ Wire Wire Line
 	1200 5550 1200 5300
 Text GLabel 1200 5300 2    60   Input ~ 0
 9V
+Wire Wire Line
+	3150 6950 3450 6950
+Wire Wire Line
+	2200 6150 2850 6150
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 61D3D792
+P 3150 6950
+F 0 "#FLG0102" H 3150 7025 50  0001 C CNN
+F 1 "PWR_FLAG" H 3150 7123 50  0000 C CNN
+F 2 "" H 3150 6950 50  0001 C CNN
+F 3 "~" H 3150 6950 50  0001 C CNN
+	1    3150 6950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 6950
 $EndSCHEMATC
