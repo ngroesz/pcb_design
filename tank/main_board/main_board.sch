@@ -394,18 +394,11 @@ GND
 Wire Wire Line
 	5250 6475 5200 6475
 Wire Wire Line
-	5200 6475 5200 6175
-Wire Wire Line
-	5100 6175 5200 6175
-Wire Wire Line
 	5250 6275 5125 6275
-Connection ~ 5200 6175
-Text GLabel 4400 6775 0    60   Input ~ 0
-SRCLR
 Text GLabel 5100 6175 0    60   Input ~ 0
-SRCLK
+SERIAL_CLOCK
 Text GLabel 5250 5975 0    60   Input ~ 0
-SER
+SERIAL_DATA
 Text GLabel 6650 5975 2    60   Input ~ 0
 M0+
 Text GLabel 6650 6075 2    60   Input ~ 0
@@ -441,11 +434,11 @@ M1PWM
 Text GLabel 5250 3450 2    60   Input ~ 0
 Encoder0
 Text GLabel 5250 2400 2    60   Input ~ 0
-SER
+SERIAL_DATA
 Text GLabel 5250 2800 2    60   Input ~ 0
-SRCLK
+SERIAL_CLOCK
 Text GLabel 5250 2900 2    60   Input ~ 0
-SRCLR
+SERIAL_LATCH
 Text GLabel 5250 3250 2    60   Input ~ 0
 LED2
 Text GLabel 5250 2700 2    60   Input ~ 0
@@ -455,7 +448,7 @@ M2+
 Text GLabel 6650 6475 2    60   Input ~ 0
 M2-
 $Comp
-L custom:SN74HC595 U3
+L main_board-rescue:SN74HC595-custom U3
 U 1 1 5A486ACA
 P 5950 6425
 F 0 "U3" H 6100 7025 50  0000 C CNN
@@ -501,8 +494,6 @@ Wire Wire Line
 	6100 3650 6700 3650
 Wire Wire Line
 	6450 4000 6550 4000
-Wire Wire Line
-	5200 6175 5250 6175
 Wire Wire Line
 	6950 2900 6950 3200
 Wire Wire Line
@@ -880,4 +871,8 @@ F 3 "~" H 3150 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3150 6950
+Wire Wire Line
+	5100 6175 5250 6175
+Text GLabel 5200 6450 0    50   Input ~ 0
+SERIAL_LATCH
 $EndSCHEMATC
