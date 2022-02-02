@@ -137,23 +137,23 @@ $EndComp
 $Comp
 L main_board-rescue:Conn_01x03_Male J5
 U 1 1 59DDB019
-P 1850 1900
-F 0 "J5" H 1850 2100 50  0000 C CNN
-F 1 "Encoder2" H 1850 1700 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 1900 50  0001 C CNN
-F 3 "" H 1850 1900 50  0001 C CNN
-	1    1850 1900
+P 1875 1850
+F 0 "J5" H 1875 2050 50  0000 C CNN
+F 1 "Encoder2" H 1875 1650 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1875 1850 50  0001 C CNN
+F 3 "" H 1875 1850 50  0001 C CNN
+	1    1875 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L main_board-rescue:Conn_01x03_Male J6
 U 1 1 59DDB307
-P 1850 2250
-F 0 "J6" H 1850 2450 50  0000 C CNN
-F 1 "Encoder3" H 1850 2050 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 2250 50  0001 C CNN
-F 3 "" H 1850 2250 50  0001 C CNN
-	1    1850 2250
+P 1875 2275
+F 0 "J6" H 1875 2475 50  0000 C CNN
+F 1 "Encoder3" H 1875 2075 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1875 2275 50  0001 C CNN
+F 3 "" H 1875 2275 50  0001 C CNN
+	1    1875 2275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -305,8 +305,6 @@ Wire Wire Line
 	2550 4950 6550 4950
 Wire Wire Line
 	3250 4500 3250 4600
-Wire Wire Line
-	2100 2000 2050 2000
 Wire Wire Line
 	6100 3600 6100 3650
 Connection ~ 6100 3650
@@ -524,30 +522,30 @@ Gm
 $Comp
 L main_board-rescue:Conn_01x03_Male J3
 U 1 1 5E9F4FF5
-P 1850 1100
-F 0 "J3" H 1958 1381 50  0000 C CNN
-F 1 "Encoder0" H 1958 1290 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 1100 50  0001 C CNN
-F 3 "" H 1850 1100 50  0001 C CNN
-	1    1850 1100
+P 1850 975
+F 0 "J3" H 1958 1256 50  0000 C CNN
+F 1 "Encoder0" H 1958 1165 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 975 50  0001 C CNN
+F 3 "" H 1850 975 50  0001 C CNN
+	1    1850 975 
 	1    0    0    -1  
 $EndComp
 $Comp
 L main_board-rescue:Conn_01x03_Male J4
 U 1 1 5EA0741C
-P 1850 1550
-F 0 "J4" H 1958 1831 50  0000 C CNN
-F 1 "Encoder1" H 1958 1740 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 1550 50  0001 C CNN
-F 3 "" H 1850 1550 50  0001 C CNN
-	1    1850 1550
+P 1850 1475
+F 0 "J4" H 1958 1756 50  0000 C CNN
+F 1 "Encoder1" H 1958 1665 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1850 1475 50  0001 C CNN
+F 3 "" H 1850 1475 50  0001 C CNN
+	1    1850 1475
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 1100 2    60   Input ~ 0
+Text GLabel 2050 975  2    60   Input ~ 0
 4.5V
-Text GLabel 2050 1200 2    60   Input ~ 0
+Text GLabel 2050 1075 2    60   Input ~ 0
 GND
-Text GLabel 2050 1000 2    60   Input ~ 0
+Text GLabel 2050 875  2    60   Input ~ 0
 Encoder0
 $Comp
 L main_board-rescue:Conn_01x04_Male J13
@@ -575,8 +573,6 @@ F 3 "" H 1850 3000 50  0001 C CNN
 	1    1850 3000
 	1    0    0    -1  
 $EndComp
-Text GLabel 5850 4400 2    50   Input ~ 0
-Encoder3
 Wire Wire Line
 	1700 4450 1700 5300
 Wire Wire Line
@@ -601,23 +597,23 @@ F 3 "~" H 6550 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 4200 6550 4950
-Text GLabel 2050 1550 2    60   Input ~ 0
+Text GLabel 2050 1475 2    60   Input ~ 0
 4.5V
-Text GLabel 2050 1650 2    60   Input ~ 0
+Text GLabel 2050 1575 2    60   Input ~ 0
 GND
-Text GLabel 2050 1450 2    60   Input ~ 0
+Text GLabel 2050 1375 2    60   Input ~ 0
 Encoder1
-Text GLabel 2050 1900 2    60   Input ~ 0
+Text GLabel 2075 1850 2    60   Input ~ 0
 4.5V
-Text GLabel 2050 2000 2    60   Input ~ 0
+Text GLabel 2075 1950 2    60   Input ~ 0
 GND
-Text GLabel 2050 1800 2    60   Input ~ 0
+Text GLabel 2075 1750 2    60   Input ~ 0
 Encoder2
-Text GLabel 2050 2250 2    60   Input ~ 0
+Text GLabel 2075 2275 2    60   Input ~ 0
 4.5V
-Text GLabel 2050 2350 2    60   Input ~ 0
+Text GLabel 2075 2375 2    60   Input ~ 0
 GND
-Text GLabel 2050 2150 2    60   Input ~ 0
+Text GLabel 2075 2175 2    60   Input ~ 0
 Encoder3
 $Comp
 L main_board-rescue:C_Small C7
@@ -807,7 +803,7 @@ NoConn ~ 6650 6875
 Text GLabel 8500 4200 0    60   Input ~ 0
 M2PWM
 Text GLabel 5250 2600 2    50   Input ~ 0
-Bump1
+Encoder3
 NoConn ~ 8500 4800
 NoConn ~ 10075 -325
 NoConn ~ 9200 4575
@@ -870,4 +866,6 @@ Wire Wire Line
 Connection ~ 5250 7050
 Wire Wire Line
 	5250 7050 5650 7050
+Text GLabel 5850 4400 2    50   Input ~ 0
+Bump1
 $EndSCHEMATC
