@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=turret board.net
+LastNetListRead=turret_board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name Tank)(type KiCad)(uri "$(KIPRJMOD)/modules/Tank.pretty")(options "")(descr ""))
+  (lib (name custom)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints)(options "")(descr ""))
 )

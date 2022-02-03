@@ -1,2 +1,3 @@
-for version 0.9:
-    - larger holes for voltage regulator
+for version 1.0:
+    - no traces under mounting screws
+    - label things
