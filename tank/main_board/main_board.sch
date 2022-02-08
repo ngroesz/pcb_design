@@ -260,12 +260,6 @@ Wire Wire Line
 Connection ~ 3250 2400
 Connection ~ 3250 4600
 Wire Wire Line
-	5250 3850 6000 3850
-Wire Wire Line
-	6000 4000 6450 4000
-Wire Wire Line
-	6000 3850 6000 4000
-Wire Wire Line
 	6450 3300 6450 3700
 Wire Wire Line
 	5900 3600 5900 3750
@@ -313,9 +307,9 @@ Text GLabel 2050 3000 2    60   Input ~ 0
 GND
 Text GLabel 2050 3500 2    60   Input ~ 0
 GND
-Text GLabel 5250 4400 2    60   Input ~ 0
+Text GLabel 5850 4250 2    60   Input ~ 0
 LED0
-Text GLabel 5250 3550 2    60   Input ~ 0
+Text GLabel 5850 4550 2    60   Input ~ 0
 LED1
 Text GLabel 6450 3300 2    60   Input ~ 0
 4.5V
@@ -343,7 +337,6 @@ Text GLabel 5250 3350 2    60   Input ~ 0
 IRTx
 Text GLabel 6950 3050 2    60   Input ~ 0
 GND
-Connection ~ 6450 4000
 Text GLabel 3150 950  0    60   Input ~ 0
 IRTx
 Text GLabel 3150 850  0    60   Input ~ 0
@@ -385,7 +378,7 @@ Wire Wire Line
 	5750 4100 5750 4400
 Wire Wire Line
 	5750 4400 5850 4400
-Text GLabel 5850 4250 2    60   Input ~ 0
+Text GLabel 5250 4400 2    60   Input ~ 0
 Bump0
 Text GLabel 5500 1800 0    60   Input ~ 0
 4.5V
@@ -453,9 +446,9 @@ Wire Wire Line
 	2500 5550 2650 5550
 Wire Wire Line
 	5850 4400 5850 4550
-Text GLabel 5850 4550 2    60   Input ~ 0
+Text GLabel 5850 4400 2    60   Input ~ 0
 Tx
-Text GLabel 5850 4100 2    60   Input ~ 0
+Text GLabel 5850 4000 2    60   Input ~ 0
 Rx
 Wire Wire Line
 	3150 6850 3175 6850
@@ -800,7 +793,7 @@ Wire Wire Line
 Connection ~ 5250 7050
 Wire Wire Line
 	5250 7050 5650 7050
-Text GLabel 5850 4400 2    50   Input ~ 0
+Text GLabel 5250 3550 2    50   Input ~ 0
 Bump1
 Wire Wire Line
 	1200 5550 1500 5550
@@ -873,4 +866,11 @@ $EndComp
 Connection ~ 3175 6950
 Wire Wire Line
 	3175 6950 3450 6950
+Wire Wire Line
+	6450 4000 6300 4000
+Wire Wire Line
+	6300 4000 6300 3850
+Wire Wire Line
+	5250 3850 6300 3850
+Connection ~ 6450 4000
 $EndSCHEMATC
