@@ -928,7 +928,7 @@
   (gr_line (start 181 124.5) (end 181 87) (layer "Edge.Cuts") (width 0.1) (tstamp 3b78f07d-b588-4f2a-b13d-6203a4505860))
   (gr_line (start 221.5 87) (end 181 87) (layer "Edge.Cuts") (width 0.1) (tstamp c2dcff93-01d8-430e-91db-b679b06ee963))
   (gr_line (start 221.5 124.5) (end 181 124.5) (layer "Edge.Cuts") (width 0.1) (tstamp c4e3d562-90f9-4653-bc60-00a5d8001f40))
-  (gr_text "Turret Board v0.8\nLaser Tag Robot Tank\nM.I.A.R. Labs\nnick.groesz@gmail.com" (at 187.75 109.25 90) (layer "B.SilkS") (tstamp a8147644-c500-4e99-9201-56ac7d03a626)
+  (gr_text "Turret Board v0.8\nLaser Tag Robot Tank\nM.I.A.R. Labs\nnick.groesz@gmail.com" (at 201.3 104.5) (layer "B.SilkS") (tstamp a8147644-c500-4e99-9201-56ac7d03a626)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
 
