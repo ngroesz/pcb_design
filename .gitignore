@@ -1,5 +1,6 @@
 *-bak
 *.swp
+*.lck
 fp-info-cache
 _autosave*
 *-backups/
