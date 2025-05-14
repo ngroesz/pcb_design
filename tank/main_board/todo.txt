@@ -1,3 +1,1 @@
-for version 1.0:
-    - no traces under mounting screws
-    - label things
+- add transistor for speaker
