@@ -100,7 +100,7 @@
 	(net 20 "unconnected-(U2-(PCINT1{slash}OC1A)PB1-Pad15)")
 	(net 21 "unconnected-(U2-(PCINT22{slash}OC0A{slash}AIN0)PD6-Pad12)")
 	(net 22 "unconnected-(U2-(PCINT8{slash}ADC0)PC0-Pad23)")
-	(net 23 "unconnected-(U2-(PCINT18{slash}INT0)PD2-Pad4)")
+	(net 23 "Net-(Button1-Pin_2)")
 	(net 24 "unconnected-(U2-AREF-Pad21)")
 	(net 25 "unconnected-(U2-(PCINT2{slash}OC1B{slash}~{SS})PB2-Pad16)")
 	(net 26 "unconnected-(U2-(PCINT20{slash}XCK{slash}T0)PD4-Pad6)")
@@ -377,7 +377,7 @@
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "211164d5-9afc-47fd-bcc8-75cb3b45e889")
-		(at 42.418 77.216)
+		(at 42.3672 75.5396)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H1"
@@ -468,7 +468,7 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "21b97141-a146-4145-9fcd-92920a5e8e80")
-		(at 67.564 74.422 180)
+		(at 65.9892 75.0824 180)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "PowerIn1"
@@ -1360,6 +1360,267 @@
 			)
 		)
 	)
+	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(layer "F.Cu")
+		(uuid "56310539-b3d9-47ff-bca0-60afeb3d7e26")
+		(at 63.9772 122.2296)
+		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
+		(tags "connector JST EH vertical")
+		(property "Reference" "Button1"
+			(at 1.25 -2.8 0)
+			(layer "F.SilkS")
+			(uuid "3df8870b-e3fd-4c57-836e-b7f250073be3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 1.25 3.4 0)
+			(layer "F.Fab")
+			(uuid "523027cd-c3b8-4aff-962d-88db333fcfc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f8f3ae3-cebb-4f7e-9c03-1baf17241a27")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4fe7a8b-f00f-45fe-a069-6b43b241e34a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(fp_line
+			(start -2.91 0.11)
+			(end -2.91 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e7dd942-8061-4256-b5a4-0c2797fbea43")
+		)
+		(fp_line
+			(start -2.91 2.61)
+			(end -0.41 2.61)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7a4beed5-93c5-4ecc-aa87-ca77716e0a00")
+		)
+		(fp_line
+			(start -2.61 0)
+			(end -2.11 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39969dcf-d055-4c19-b65e-493db29821f1")
+		)
+		(fp_line
+			(start -2.61 0.81)
+			(end -1.61 0.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57606ad9-e6af-4140-ad38-19a6ee8f5050")
+		)
+		(fp_line
+			(start -2.11 -1.21)
+			(end 4.61 -1.21)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "843e7480-7d49-4138-b12a-e9ea7109c1da")
+		)
+		(fp_line
+			(start -2.11 0)
+			(end -2.11 -1.21)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c83c3fd-9fea-4986-9982-03ec72e9096e")
+		)
+		(fp_line
+			(start -1.61 0.81)
+			(end -1.61 2.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "839845a3-7514-42d1-823f-94d70da65a88")
+		)
+		(fp_line
+			(start 4.11 0.81)
+			(end 4.11 2.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b281b7eb-3b23-42a9-860c-a69ec21f3ddf")
+		)
+		(fp_line
+			(start 4.61 -1.21)
+			(end 4.61 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d33e0f2b-0458-4484-9767-7ec58b85c297")
+		)
+		(fp_line
+			(start 4.61 0)
+			(end 5.11 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f1972bd4-e29f-4f6b-b8ce-274ddccde071")
+		)
+		(fp_line
+			(start 5.11 0.81)
+			(end 4.11 0.81)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c56e3e27-2ba0-4073-ac13-54cda3c67230")
+		)
+		(fp_rect
+			(start -2.61 -1.71)
+			(end 5.11 2.31)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "c5f50285-0215-4c16-bbf8-ab8a4d4472fa")
+		)
+		(fp_rect
+			(start -3 -2.1)
+			(end 5.5 2.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a7a0db0e-d529-4e52-9e24-fc7658f8a054")
+		)
+		(fp_line
+			(start -2.91 0.11)
+			(end -2.91 2.61)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e089b80-7b54-4bfb-a034-e2c5f84a5fa6")
+		)
+		(fp_line
+			(start -2.91 2.61)
+			(end -0.41 2.61)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7279ad6e-2f04-4086-8087-dee1d1516021")
+		)
+		(fp_rect
+			(start -2.5 -1.6)
+			(end 5 2.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "5ce20419-62c4-4bfe-9ad2-11d95dfcb849")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.25 1.5 0)
+			(layer "F.Fab")
+			(uuid "63b381b3-fb58-4b8e-b2bb-da48f0347205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole roundrect
+			(at 0 0)
+			(size 1.7 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.147059)
+			(pinfunction "Pin_1")
+			(pintype "passive")
+			(uuid "f6df5b16-29dd-4a3c-9a6d-c97dd3c84240")
+		)
+		(pad "2" thru_hole oval
+			(at 2.5 0)
+			(size 1.7 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "Pin_2")
+			(pintype "passive")
+			(uuid "05d8148a-482a-4f82-8088-dc483ee5e842")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DIP:DIP-28_W7.62mm"
 		(layer "F.Cu")
 		(uuid "5cd5c150-ea9b-4601-b8f0-4d13aafec896")
@@ -1590,9 +1851,9 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 23 "unconnected-(U2-(PCINT18{slash}INT0)PD2-Pad4)")
+			(net 23 "Net-(Button1-Pin_2)")
 			(pinfunction "(PCINT18/INT0)PD2")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "ad1f8e73-e8e7-4a6c-8081-15028fe9d98a")
 		)
 		(pad "5" thru_hole circle
@@ -1875,7 +2136,7 @@
 	(footprint "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6583398a-6e2f-4c88-bdc4-cb59c3c87ea5")
-		(at 41.91 106.426 -90)
+		(at 41.6052 105.918 -90)
 		(descr "JST EH series connector, B2B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH vertical")
 		(property "Reference" "Beacon1"
@@ -2450,7 +2711,7 @@
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "6ef4afcd-c81a-4b52-9911-dcacc0455204")
-		(at 74.422 77.216)
+		(at 73.3044 75.4888)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H3"
@@ -3378,15 +3639,15 @@
 	)
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
-		(uuid "9cc23d33-f423-479a-a947-0c5d30ef6ceb")
-		(at 42.418 118.618)
+		(uuid "9aaa30ae-c9ce-469f-9392-5d06b6b07954")
+		(at 42.418 121.92)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H4"
 			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "329a9ede-e1e2-4f2f-97dc-c0ce4ca015d1")
+			(uuid "ecb64fc4-dbfa-4b1e-a478-53f00afc6159")
 			(effects
 				(font
 					(size 1 1)
@@ -3397,7 +3658,7 @@
 		(property "Value" "MountingHole"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "86d2eb61-8f0d-4e4c-babb-17ea402fdfa3")
+			(uuid "a0aa8cf4-638c-4983-9de7-63ae43b8a6e1")
 			(effects
 				(font
 					(size 1 1)
@@ -3410,7 +3671,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "55c76cff-d64e-481d-82d8-964184dd3f44")
+			(uuid "7d0a6713-f706-4915-a356-4992b30471df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3684,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d08efffd-cc5e-4553-85e6-9b3b6ff40df9")
+			(uuid "1018ae95-abc7-4622-93f9-d4f406868c38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,10 +3692,6 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/3b4dcc0c-a3a1-46ea-95ff-ad5857c62702")
-		(sheetname "/")
-		(sheetfile "tank_trainer.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -3445,7 +3702,7 @@
 			)
 			(fill no)
 			(layer "Cmts.User")
-			(uuid "6bc64796-a7a7-4768-88dd-1b2881c51570")
+			(uuid "3ca163c8-2202-48c6-a730-0f5354f4c067")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3456,12 +3713,12 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a95ab827-4189-4949-a938-32d9dce05de5")
+			(uuid "6ece7403-7a59-40d6-87ac-bd4e48e8ff2d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "12c62a8c-9fef-4a79-b668-ff117c5f9b70")
+			(uuid "494db84a-d875-4762-87ae-c18665555188")
 			(effects
 				(font
 					(size 1 1)
@@ -3474,14 +3731,14 @@
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ed62a73e-6451-4f10-a3fc-2b728422ae85")
+			(uuid "fa499218-3907-4172-9f82-e01d67f591ce")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_3mm"
 		(layer "F.Cu")
 		(uuid "aaf28312-1c6b-442f-8136-8835d0085f51")
-		(at 74.93 118.618)
+		(at 73.3552 121.92)
 		(descr "Mounting Hole 3mm, no annular")
 		(tags "mounting hole 3mm no annular")
 		(property "Reference" "H5"
@@ -8076,8 +8333,8 @@
 		)
 	)
 	(gr_rect
-		(start 39.024 71.452)
-		(end 78.324 122.174)
+		(start 39.024 72.1632)
+		(end 76.6984 125.0696)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -8086,7 +8343,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ba3af3ae-df81-44bc-b25d-97ecb4b9a6a3")
 	)
-	(gr_text "Laser Tag Robot Tank\nTank Trainer v0.1"
+	(gr_text "Laser Tag Robot Tank\nTank Trainer v0.2"
 		(at 63 85 90)
 		(layer "B.SilkS")
 		(uuid "569ba242-d61e-48c8-b8b0-505cc935c0c7")
