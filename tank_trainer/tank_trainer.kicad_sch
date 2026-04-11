@@ -4865,7 +4865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b798cd7a-b917-4f75-a300-d3af0cb9a835")
-		(property "Reference" "Button"
+		(property "Reference" "Button1"
 			(at 186.69 82.5499 0)
 			(effects
 				(font
@@ -4919,7 +4919,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "Button")
+					(reference "Button1")
 					(unit 1)
 				)
 			)

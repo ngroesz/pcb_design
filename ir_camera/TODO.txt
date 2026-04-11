@@ -1,0 +1,3 @@
+- Some of the capacitors need more space. 
+
+- Maybe voltage regulators should be better designated on the board?

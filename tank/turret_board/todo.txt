@@ -1,3 +1,0 @@
-TODO for version 0.8
-- 4 pin power regulator
-- center power regulator

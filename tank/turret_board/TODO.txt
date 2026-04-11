@@ -1,0 +1,4 @@
+TODO for version 0.17
+- power in should be screw terminal
+- restore tank logo
+- remove transistor for speaker circuit
