@@ -2500,12 +2500,6 @@
 		(uuid "36f4e813-bafe-4666-a1ea-62c4bd039612")
 	)
 	(junction
-		(at 147.32 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "573c698a-b165-4f06-86cf-585757cf2f34")
-	)
-	(junction
 		(at 102.87 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2568,10 +2562,6 @@
 		(uuid "71269c98-e618-4c1c-adc4-df1a3d6e53bc")
 	)
 	(no_connect
-		(at 133.35 39.37)
-		(uuid "79af69eb-b247-47aa-8889-21ee7f522934")
-	)
-	(no_connect
 		(at 133.35 66.04)
 		(uuid "820ffd32-6673-4dfb-b908-bad238a4e822")
 	)
@@ -2582,10 +2572,6 @@
 	(no_connect
 		(at 49.53 69.85)
 		(uuid "871013ea-7943-4b88-8aab-1c73438fb92a")
-	)
-	(no_connect
-		(at 133.35 92.71)
-		(uuid "8b9aa3e9-d478-4cc5-a08e-93932deafaf9")
 	)
 	(no_connect
 		(at 133.35 44.45)
@@ -2651,16 +2637,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 147.32 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10df576b-9949-4099-a2a9-ba623966f6ad")
-	)
-	(wire
-		(pts
 			(xy 64.77 114.3) (xy 72.39 114.3)
 		)
 		(stroke
@@ -2698,6 +2674,16 @@
 			(type default)
 		)
 		(uuid "228aad3e-c720-4883-899b-d77dd7ee1de9")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 144.78 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25aed9af-86c9-4a71-891c-949cef4de3dc")
 	)
 	(wire
 		(pts
@@ -2771,6 +2757,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 92.71) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c117b5a-acc1-4038-9956-6dfba275df47")
+	)
+	(wire
+		(pts
 			(xy 160.02 52.07) (xy 160.02 49.53)
 		)
 		(stroke
@@ -2781,23 +2777,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 77.47) (xy 152.4 77.47)
+			(xy 133.35 92.71) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63bb1fa3-b567-4c4f-91d5-4a2d9465772b")
-	)
-	(wire
-		(pts
-			(xy 143.51 77.47) (xy 147.32 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f660a93-3bf4-43db-833c-52ae68661415")
+		(uuid "64c190dc-3d5f-4f55-ae40-2ac0f172125e")
 	)
 	(wire
 		(pts
@@ -2821,6 +2807,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 39.37) (xy 157.48 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a551f51-ba7a-4782-b810-6f484285d11a")
+	)
+	(wire
+		(pts
 			(xy 82.55 92.71) (xy 82.55 95.25)
 		)
 		(stroke
@@ -2828,6 +2824,16 @@
 			(type default)
 		)
 		(uuid "908f77a5-fc2c-4b82-b91d-28d3bbd41acf")
+	)
+	(wire
+		(pts
+			(xy 133.35 39.37) (xy 138.43 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9098ef1c-e1ca-4a60-8578-530b2e87260d")
 	)
 	(wire
 		(pts
@@ -2941,16 +2947,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 105.41) (xy 153.67 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce340187-2260-496f-92b6-4382af03dda4")
-	)
-	(wire
-		(pts
 			(xy 49.53 80.01) (xy 49.53 127)
 		)
 		(stroke
@@ -2958,6 +2954,16 @@
 			(type default)
 		)
 		(uuid "d4d33bfb-71a2-4d03-975c-7254a112d67c")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 142.24 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89c7e39-c3a2-4ca9-8eee-b471113acdae")
 	)
 	(wire
 		(pts
@@ -2978,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "dd56c689-8f04-4a0d-8e33-ff0d41d9ed38")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06a28ee-5660-48f1-b48a-8fee4c5cf1f6")
 	)
 	(wire
 		(pts
@@ -3121,28 +3137,6 @@
 			)
 		)
 	)
-	(global_label "Rx"
-		(shape input)
-		(at 147.32 76.2 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify left)
-		)
-		(uuid "4822a895-cab7-40a3-99b7-03832a44dc0a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 69.8606 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 146.05 91.44 180)
@@ -3156,6 +3150,28 @@
 		(uuid "4d34767e-1697-428b-80d4-c1aa05ffaae6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.8237 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "4.5V"
+		(shape input)
+		(at 127 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "4f47290c-e852-49af-97a1-580c132890fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.4835 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3204,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 152.4 80.01 180)
+		(at 144.78 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3196,9 +3212,9 @@
 			)
 			(justify right)
 		)
-		(uuid "69dd4439-6588-4945-a061-0784ddda78b7")
+		(uuid "6c101c68-9c15-46ae-bcf4-13c8357808e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.1737 80.01 0)
+			(at 136.5537 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,28 +3258,6 @@
 		(uuid "9044904c-31f2-4c67-929c-ec6339646cd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 74.0335 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 153.67 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-			(justify right)
-		)
-		(uuid "964e00da-33be-4b8d-af78-10667cca45f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4437 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,6 +3374,28 @@
 			)
 		)
 	)
+	(global_label "4.5V"
+		(shape input)
+		(at 157.48 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "b8722b95-6969-4f51-b301-b73328775e26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9635 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 82.55 94.996 180)
@@ -3419,6 +3435,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "4.5V"
+		(shape input)
+		(at 161.29 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "d306365c-2f44-4566-aad4-ca7ed2284fd3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.7735 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3466,24 +3504,24 @@
 			)
 		)
 	)
-	(global_label "4.5V"
+	(global_label "Rx"
 		(shape input)
-		(at 135.89 105.41 180)
+		(at 135.89 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.524 1.524)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fcbb17a3-7056-4dd5-afe0-e13b39067c42")
+		(uuid "fc0c8151-1dc8-4c3e-925b-31d877bc1c16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.3735 105.41 0)
+			(at 142.2294 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3564,7 +3602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e51f12-4245-4ba5-9880-8fc9f5f410a0")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 172.72 64.7699 0)
 			(effects
 				(font
@@ -3614,6 +3652,72 @@
 		)
 		(pin "2"
 			(uuid "d369dacb-1528-4946-b13f-5c116acc1d5b")
+		)
+		(instances
+			(project "tank_trainer"
+				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "111e9f19-17fc-4bc7-ac52-cff4b006bfff")
+		(property "Reference" "R4"
+			(at 146.05 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 146.05 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 146.05 105.918 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e033e64e-5cff-4a8c-b12d-0d8e8ce2c2ed")
+		)
+		(pin "2"
+			(uuid "c8de7fce-ee18-4415-896d-47b538cbcd5e")
 		)
 		(instances
 			(project "tank_trainer"
@@ -3702,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c316fd-fdd6-4a8a-82ab-255bb26b391d")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 137.16 54.61 90)
 			(effects
 				(font
@@ -3754,7 +3858,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3769,7 +3873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35b4884d-0b89-4476-902a-a206190701c1")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 170.3832 73.5584 0)
 			(effects
 				(font
@@ -3823,7 +3927,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3839,7 +3943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b4dcc0c-a3a1-46ea-95ff-ad5857c62702")
-		(property "Reference" "H4"
+		(property "Reference" "H1"
 			(at 52.578 128.2699 0)
 			(effects
 				(font
@@ -3889,7 +3993,77 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "H4")
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 166.37 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bad0acb-f93c-42ce-a1c0-875f19754c66")
+		(property "Reference" "LED2"
+			(at 167.64 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 167.64 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de6dc319-6beb-4581-b14d-5412958940fd")
+		)
+		(pin "1"
+			(uuid "835ddb76-9331-4537-a13f-a28416824bec")
+		)
+		(instances
+			(project "tank_trainer"
+				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -3984,7 +4158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0e80d6-b4a3-4edc-94f9-8d90e7daf200")
-		(property "Reference" "H3"
+		(property "Reference" "H4"
 			(at 149.86 128.2699 0)
 			(effects
 				(font
@@ -4032,7 +4206,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e246755-054f-413a-a7bd-c584aa2b7482")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 149.606 30.2259 0)
 			(effects
 				(font
@@ -4096,7 +4270,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4416,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 158.75 107.95 180)
+		(at 149.86 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4251,7 +4425,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b594aa7-ac49-4f0e-89a4-4ab2bdfba3f1")
 		(property "Reference" "Beacon1"
-			(at 160.02 105.4099 0)
+			(at 151.13 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4434,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 160.02 107.9499 0)
+			(at 151.13 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4443,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 158.75 107.95 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 107.95 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4287,7 +4461,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 158.75 107.95 0)
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +4493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65e160ca-8586-4fed-af86-f772ca3a5d91")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 170.942 49.276 0)
 			(effects
 				(font
@@ -4372,7 +4546,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4388,7 +4562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69dc7441-0757-41db-b570-c8f473933ede")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 52.578 29.9719 0)
 			(effects
 				(font
@@ -4436,7 +4610,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4444,7 +4618,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 157.48 80.01 180)
+		(at 162.56 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4452,8 +4626,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "732dda5e-d151-4657-b853-6d858e3c1de0")
-		(property "Reference" "LED0"
-			(at 158.75 77.4699 0)
+		(property "Reference" "LED1"
+			(at 163.83 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4636,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 158.75 80.0099 0)
+			(at 163.83 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4645,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
-			(at 157.48 80.01 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4654,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 80.01 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,7 +4663,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 157.48 80.01 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +4680,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "LED0")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -4582,15 +4756,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 77.47 90)
+		(at 142.24 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7e80dd9d-89c4-4796-824d-d1bc4381ac26")
-		(property "Reference" "R1"
-			(at 139.7 75.438 90)
+		(property "Reference" "R3"
+			(at 142.24 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4772,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 139.7 77.47 90)
+			(at 142.24 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4780,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 139.7 79.248 90)
+			(at 142.24 41.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4789,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 77.47 0)
+			(at 142.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4624,7 +4798,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 77.47 0)
+			(at 142.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4814,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4822,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 105.41 90)
+		(at 130.81 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4656,8 +4830,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c252b1-ff1c-494a-b314-6adb458e0657")
-		(property "Reference" "R2"
-			(at 139.7 99.568 90)
+		(property "Reference" "R1"
+			(at 130.81 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,7 +4839,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 139.7 102.108 90)
+			(at 130.81 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,7 +4847,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 139.7 107.188 90)
+			(at 130.81 117.348 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 105.41 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4865,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 105.41 0)
+			(at 130.81 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4882,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4934,7 +5108,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7c5c19c-388d-49ea-b7ad-b4012c3c69b9")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 170.942 56.896 0)
 			(effects
 				(font
@@ -4987,7 +5161,7 @@
 		(instances
 			(project "tank_trainer"
 				(path "/bbdf6b73-423d-4868-8bf7-eea4b49abb4e"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
