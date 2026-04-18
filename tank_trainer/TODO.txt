@@ -1,1 +1,1 @@
-- could make LED active low and I think that this would make it brighter
+- could move header out about 2mm
