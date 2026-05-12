@@ -1,4 +1,3 @@
-TODO for version 0.17
-- power in should be screw terminal
-- restore tank logo
-- remove transistor for speaker circuit
+TODO for version turrent board 0.11
+- can I restore labels without increasing board size?
+- consider to move all power pins to #1
