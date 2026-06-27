@@ -1,1 +1,3 @@
 - move programming header out about 2mm?
+- look at motor controller and ground to second motor controller and attempt to optimize (maybe look at trace widths?)
+- missing labels (LEDs and speaker and motors?)

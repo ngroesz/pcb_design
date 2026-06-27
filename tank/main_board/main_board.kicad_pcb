@@ -8123,7 +8123,7 @@
 		)
 		(property "Value" "LEDs"
 			(at 3.75 3.4 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "a4dae8e0-b793-427a-a022-c9f9f85d9c59")
 			(effects
 				(font
